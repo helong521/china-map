@@ -1,0 +1,66 @@
+.top-banner { width:100%; height:680px; margin:0; padding:0; background-image: url(../imgs/contactus/pc/banner.jpg); background-position: center center; background-size: cover; }
+.top-banner .container { margin: 0 auto; position: relative; }
+.top-banner-content { height:680px; }
+.top-banner-title { margin-top: 250px; width:50%; height: 54px; text-align: left; font-size: 36px; color: #FFFFFF; line-height: 54px; }
+.top-banner-desc { margin-top: 30px; width:50%; height: auto; font-size: 16px; color: #FFFFFF; text-align: left; line-height: 24px; }
+.top-banner-btn { width:50%; height: 40px; margin-top: 50px; text-align: left; }
+.top-banner-btn a { width:180px; height: 40px; border: 1px solid #0E85D9; display: block; line-height: 40px; text-align: center; font-size: 14px; color: #FFFFFF; letter-spacing: 0; float: left; margin-right: 20px; }
+.top-banner-btn a:hover { background-color: #0E85D9; text-decoration: none; }
+.top-banner-btn a.active { background-color: #0E85D9; text-decoration: none; }
+.sec1 { /*  设置参数  */
+    height: 598px; background-image: url(../imgs/contactus/pc/Contact-Us.jpg); }
+.sec1 .normal-section-title { /*  设置参数  */
+    height:243px; }
+.sec1 .normal-section-content { /*  设置参数  */
+    height:245px; }
+.sec1 .divfl { float: left; width:45%; height:245px; overflow: hidden; padding-top: 30px; }
+.sec1 .divfl > div { line-height: 50px; width:100%; height: 50px; text-align: left; padding-left: 60px; font-size: 14px; color: #000000; letter-spacing: 0; position: relative; }
+.sec1 .divfl span { width:30px; height: 30px; position:absolute; left: 0; top: 10px; background-size: cover; display: block; }
+.sec1 .divfr { float: right; width:55%; height:245px; overflow: hidden; }
+.sec1 #cscimap { width:100%; height: 245px; overflow: hidden; }
+.sec2 { /*  设置参数  */
+    height: 1216px; background-image: url(../imgs/contactus/pc/CSCI-Cloud-Advisory.jpg); }
+.sec2 .normal-section-title { /*  设置参数  */
+    height:243px; }
+.sec2 .normal-section-content { /*  设置参数  */
+    height:773px; margin: 0; padding: 0; background: #F8F9FA; box-shadow: 0 0 12px 0 rgba(107, 135, 248, 0.45); position: relative; }
+.sec2 .contactform { width:100%; height: 773px; position: absolute; left: 0; top: 0; z-index: 10; padding-top: 20px; }
+.sec2 .dwtl { position: absolute; left: 0; top: 0; background-image: url(../imgs/contactus/pc/dw.png); background-size: cover; width:236px; height: 259px; z-index: 5; }
+.sec2 .dwrb { position: absolute; right: 0; bottom: 0; width:219px; height: 253px; background-image: url(../imgs/contactus/pc/dw2.png); background-size: cover; z-index: 5; }
+.sec2 .formline { width:80%; height: auto; margin: 30px auto; overflow: hidden; clear: both; }
+.sec2 .divfl { float: left; width:12%; height: auto; font-size: 18px; color: #242728; text-align: left; line-height: 28px; }
+.sec2 .divfr { float: right; width:88%; height: auto; }
+.sec2 input { width:100%; height: 60px; line-height: 60px; border: 1px solid #999999; }
+.sec2 textarea { width:100%; height: 223px; border: 1px solid #999999; }
+.sec2 .normal-section-btmbtn { height:140px; margin: 0; padding: 50px 0; }
+.sec2 .normal-section-btmbtn a { display: block; width:180px; height: 40px; border: 1px solid #3A72D4; font-size: 14px; color: #242728; text-align: center; line-height: 40px; text-decoration: none; cursor: pointer; margin: 0 auto; }
+.sec2 .normal-section-btmbtn a:hover { color:#fff; background-color: #3A72D4; }
+
+@media (max-width: 1080px) {
+.top-banner-content,.top-banner{height:450px;}
+/***/
+.sec2 .normal-section-title{ height:auto; margin-bottom:50px;}
+.sec1,.sec2{ padding:100px 20px; padding-bottom:60px; height:auto}
+.normal-section-title{ height:auto; padding:0;}
+.sec1 .normal-section-title{ height:auto; margin-bottom:50px;}
+.sec1 .normal-section-content, .sec4 .normal-section-content ul{ margin:0; margin-top:20px;}
+.normal-section-title-wrapper{ width:100%; height:auto; margin:0}
+.normal-section-title-t1:before{ width:20%; margin-right:25px; height:1px; display:inline-block; content:""; background:#999; vertical-align:middle}
+.normal-section-title-t1:after{ width:20%; margin-left:25px; height:1px; display:inline-block; content:""; background:#999; vertical-align:middle}	
+.nst-light .normal-section-title-l1{ display:none}
+.nst-light .normal-section-title-l2{ display:none}
+.nst-dark .normal-section-title-l1{ display:none}
+.nst-dark .normal-section-title-l2{ display:none}
+.normal-section .container{ width:100%; padding:0}
+.sec1 .normal-section-content{ height:auto}
+.sec1 .divfl{ height:auto; width:100%; padding-top:0}
+.sec1 .divfr{ width:100%; height:auto}
+.sec2 .formline{ width:100%; margin:0; margin-bottom:10px;}
+.sec2 .divfl{ width:100%; margin-bottom:10px;}
+.sec2 .divfr{ width:100%}
+.sec2 .contactform{ height:auto; padding:20px}
+.sec2 input{ height:auto; line-height:normal; padding:10px 10px;}
+}	
+@media (max-width:375px) {
+
+}

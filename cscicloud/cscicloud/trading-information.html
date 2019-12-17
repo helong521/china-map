@@ -1,0 +1,968 @@
+
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>DealingMatrix - CSCI信用云</title>
+
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+
+<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+
+<link rel="stylesheet" href="css/swiper.min.css">
+
+<link rel="stylesheet" href="css/common.css">
+
+<link rel="stylesheet" type="text/css" href="css/trading-information.css">
+
+<link rel="stylesheet" type="text/css" href="css/product_common.css">
+
+<style>
+
+#scenarios_area { background:#fff url(imgs/product_service/banner2.jpg) no-repeat; background-size:100% auto }
+
+@media (max-width: 1080px) {
+
+.top-banner {
+
+background:url(imgs/product_service/banner1.jpg);
+
+background-size:100% auto
+
+}
+
+#trial_area.Success {
+
+    background: #fbfbfb;
+
+}
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<!-- 头部style -->
+
+<div id="header" class="container-fluid ">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-2">
+
+      <img id="logo_w" class="gotohome" src="imgs/logo_400x120_w.png?t=1576435855" height="60">
+
+      <img id="logo_b" class="gotohome" src="imgs/logo_400x120_b.png?t=1576435855" height="60">
+
+      </div>
+
+      <div class="col-md-10">
+
+        <i class="mobilemmenuclose"></i>
+
+        <ul class="cscinav">
+
+          <li class=""><a href="index.html">首页</a></li>
+
+          <li class="hover"><a href="internal-credi-rating.html">产品及服务</a>
+
+            <div class="subnav-section">
+
+              <div class="container">
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <div class="ss-l1"> <a class="active" id="menubtn_2_1">信用服务</a> </div>
+
+                    <div class="ss-btns" id="menu_2_1">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-title">信用风险管理</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="internal-credit-rating.html">债乎 CreditMaster</a>
+
+                          <a href="internal-credit-rating.html" class="sscollinksubtext">债券信用风险一站式管理</a></div>
+
+                        <div class="ss-col-link"><a href="data-risk-control.html">云瞻</a>
+
+                          <a href="data-risk-control.html" class="sscollinksubtext">消费金融数据风控</a></div>
+
+                        <div class="ss-col-link"><a href="risk-monitor-and-warning.html">中证预鉴 CreditPortal</a>
+
+                          <a href="risk-monitor-and-warning.html" class="sscollinksubtext">企业信用风险传导预警平台</a></div>
+
+                      </div>
+
+                      <div class="ss-col2">
+
+                        <div class="ss-col-title">信用增进</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="risk-business-general-management.html">风险业务综合管理平台</a>
+
+                          <a href="risk-business-general-management.html" class="sscollinksubtext">集业务管理与风险管理为一体</a></div>
+
+                        <div class="ss-col-link"><a href="SME-financing.html">中小微增信服务平台</a>
+
+                          <a href="SME-financing.html" class="sscollinksubtext">助贷服务、资产服务</a></div>
+
+                      </div>
+
+                      <div class="ss-col3">
+
+                        <div class="ss-col-title">信用资产交易管理服务</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="bond-evaluation-and-pricing.html">Ratingdog</a>
+
+                          <a href="bond-evaluation-and-pricing.html" class="sscollinksubtext">债券估值与定价</a></div>
+
+                        <div class="ss-col-link"><a href="trading-information.html">DealingMatrix</a>
+
+                          <a href="trading-information.html" class="sscollinksubtext">债券及同业报价</a></div>
+
+                        <div class="ss-col-link"><a href="NPls-evaluation.html">不良资产估值</a>
+
+                          <a href="NPls-evaluation.html" class="sscollinksubtext">不良资产估值辅助工具</a></div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="ss-l2"> <a class="" id="menubtn_2_2">基础服务</a> </div>
+
+                    <div class="ss-btns" id="menu_2_2" style="display: none;">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-title">数据服务</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="Daas.html">DaaS</a>
+
+                          <a href="Daas.html" class="sscollinksubtext">企业数据服务</a></div>
+
+                      </div>
+
+                      <div class="ss-col2">
+
+                        <div class="ss-col-title">功能服务</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="Baas.html">BaaS</a>
+
+                          <a href="Baas.html" class="sscollinksubtext">中证区块链基础服务</a></div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="ss-sepline"></div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class="" id="menu_solution"><a href="construction-of-internal-rating-system.html">解决方案</a>
+
+            <div class="subnav-section">
+
+              <div class="container">
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <div class="ss-sepline"></div>
+
+                    <div class="ss-l1"> <a class="active">解决方案</a> </div>
+
+                    <div class="ss-btns">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-title">证券</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-llink"><a href="construction-of-internal-rating-system.html">内部评级体系建设</a></div>
+
+                        <div class="ss-col-llink"><a href="investor-internal-evaluation.html">投资者适当性管理</a></div>
+
+                      </div>
+
+                      <div class="ss-col3">
+
+                        <div class="ss-col-title">融资担保</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-llink"><a href="management-of-financing-guarantee-business.html">融担业务综合管理</a></div>
+
+                      </div>
+
+                      <div class="ss-col4">
+
+                        <div class="ss-col-title">监管</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-llink"><a href="fund-risk-management.html">私募基金风险管理</a></div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class=""><a href="api-0.html">文档中心</a></li>
+
+          <li class="" id="menu_contact"><a href="aboutus.html">关于我们</a>
+
+            <div class="subnav-section">
+
+              <div class="container">
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <div class="ss-sepline"></div>
+
+                    <div class="ss-l1"><a class="active">关于我们</a> </div>
+
+                    <div class="ss-btns">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-llink"><a href="about-us.html">了解信用云</a></div>
+
+                        <div class="ss-col-llink"><a href="contact-us.html">联系我们</a></div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+      
+
+      <div class="burger">
+
+      <div class="x"></div>
+
+      <div class="y"></div>
+
+      <div class="z"></div>
+
+      </div>
+
+      
+
+      
+
+    </div>
+
+  </div>
+
+</div><div class="top-banner">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 top-banner-content">
+
+        <div class="top-banner-title" > DealingMatrix </div>
+
+        <div class="top-banner-desc" > Dealing Matrix（简称：DM）是投研一体化金融终端，集市场行情、投研联动、投组管理于一体，协助人民币债券投资者发掘投资机会、优化投资流程、提高投资效率。客户群体覆盖全国34个省、自治区、直辖市，目前全国有来自4500家金融机构的23000名交易员使用DM终端软件来发现市场机会。 </div>
+
+        <div class="top-banner-btn" > <a href="contact-us.html">联系我们</a> </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<div class="fastNavBar">
+
+  <ul>
+
+    <li><a href="#sec1">应用场景</a></li>
+
+    <li><a href="#sec3">功能服务</a></li>
+
+    <li><a href="#sec4">服务客户</a></li>
+
+    <li><a href="#sec5">体验使用</a></li>
+
+    <li><a href="#sec6">常见问题</a></li>
+
+  </ul>
+
+</div>
+
+
+
+<div class="normal-section sec1 pc_visible" id="sec1">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-dark">
+
+          <div class="normal-section-title-t1">应用场景</div>
+
+          <div class="normal-section-title-t2">Scenarios</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <ul>
+
+          <li>
+
+            <div class="nsculli-title">DM固收平台：科技化信用投资先行者<span></span></div>
+
+            <div class="nsculli-desc">旗下有雷区和DM信用投资分析系统两个品种。雷区是国内首个专注信用债风险披露的社区。DM信用投资分析系统旨在通过更丰富的数据类型、更细分的信用风险等级、更适应债券投资的模块设计、更智能的投组管理，持续为信用债投资创造价值。 </div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-title">DM同业平台：挖掘最优价，发现更优价<span></span></div>
+
+            <div class="nsculli-desc">为全国首家实现交易员点对点报价的资金资产报价平台，依托大数据语义解析技术及高效的人工智能匹配，持续为客户创造优势价值。</div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="scenarios_area" class="mobile_visible">
+
+  <div class="scen_h1_title"> <span>应用场景</span> <font>Scenarios</font> </div>
+
+  <ul>
+
+    <li>
+
+      <div class="nsculli-title">DM固收平台：科技化信用投资先行者<span></span></div>
+
+      <div class="nsculli-desc">旗下有雷区和DM信用投资分析系统两个品种。雷区是国内首个专注信用债风险披露的社区。DM信用投资分析系统旨在通过更丰富的数据类型、更细分的信用风险等级、更适应债券投资的模块设计、更智能的投组管理，持续为信用债投资创造价值。</div>
+
+    </li>
+
+    <li>
+
+      <div class="nsculli-title">DM同业平台：挖掘最优价，发现更优价<span></span></div>
+
+      <div class="nsculli-desc">为全国首家实现交易员点对点报价的资金资产报价平台，依托大数据语义解析技术及高效的人工智能匹配，持续为客户创造优势价值。</div>
+
+    </li>
+
+  </ul>
+
+</div>
+
+
+
+<div class="normal-section sec3 pc_visible" id="sec3">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-light">
+
+          <div class="normal-section-title-t1">功能服务</div>
+
+          <div class="normal-section-title-t2">Functionality</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <ul>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/tradingInformation/icon/2-1.png" width="100" /></div>
+
+            <div class="nsc-keyword">市场纵览</div>
+
+            <div class="nsc-title">市场行情</div>
+
+            <div class="nsc-desc">深度覆盖人民币资金市场、债券市场、同业资产市场的交易行情，更完整地反映市场。</div>
+
+            <div class="nsc-title">评级墙</div>
+
+            <div class="nsc-desc">整合主流市场各大评级机构、卖方及买方研究对发债企业主体的定量评级数据和定性研究观点，为债券研究及报告撰写提供更多思路。</div>
+
+            <div class="nsc-title">企业舆情</div>
+
+            <div class="nsc-desc">人工智能引擎、打造债券新闻专属的风险、情感、重要度评估模型，日处理全网资讯3w+。</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/tradingInformation/icon/2-2.png" width="100" /></div>
+
+            <div class="nsc-keyword">投研联动</div>
+
+            <div class="nsc-title">内部评级兼容</div>
+
+            <div class="nsc-desc">支持机构内部评级结果导入及信评模板建设，让投研成果无缝对接前台交易。</div>
+
+            <div class="nsc-title">智能投资组合监控</div>
+
+            <div class="nsc-desc">大数据全网智能监控，帮助用户更高效地掌握债券舆情、价格、存续、风险变化。</div>
+
+            <div class="nsc-title">投研社区</div>
+
+            <div class="nsc-desc">“雷区”系列信用投资研讨群为国内最活跃的机构间投资交流群。</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/tradingInformation/icon/2-3.png" width="100" /></div>
+
+            <div class="nsc-keyword">板块深踪</div>
+
+            <div class="nsc-title">小道消息</div>
+
+            <div class="nsc-desc">深入监控市场各大群组、社区及论坛等小道平台，独家汇聚市场非公开信息，超前捕捉债项违约动态。</div>
+
+            <div class="nsc-title">城投地图</div>
+
+            <div class="nsc-desc">涵盖各省GDP、政府性债务、城投债务余额、城投平台数4大必备指标。联动百家投研机构，量化政府实力、平台与政府紧密度和平台自身经营3大模块。根据投资者的风险偏好，匹配最优城投投资组合。</div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="function_area" class="mobile_visible">
+
+  <div class="scen_h1_title"><span>功能服务</span> <font>Functionality</font> </div>
+
+  <ul>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/tradingInformation/icon/2-1.png" width="100" /></div>
+
+            <div class="nsc-keyword">市场纵览</div>
+
+            <div class="nsc-content">
+
+              <div class="nsc-title">市场行情</div>
+
+              <div class="nsc-desc">深度覆盖人民币资金市场、债券市场、同业资产市场的交易行情，更完整地反映市场。</div>
+
+              <div class="nsc-title">评级墙</div>
+
+              <div class="nsc-desc">整合主流市场各大评级机构、卖方及买方研究对发债企业主体的定量评级数据和定性研究观点，为债券研究及报告撰写提供更多思路。</div>
+
+              <div class="nsc-title">企业舆情</div>
+
+              <div class="nsc-desc">人工智能引擎、打造债券新闻专属的风险、情感、重要度评估模型，日处理全网资讯3w+。</div>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/tradingInformation/icon/2-2.png" width="100" /></div>
+
+            <div class="nsc-keyword">投研联动</div>
+
+            <div class="nsc-content">
+
+              <div class="nsc-title">内部评级兼容</div>
+
+              <div class="nsc-desc">支持机构内部评级结果导入及信评模板建设，让投研成果无缝对接前台交易。</div>
+
+              <div class="nsc-title">智能投资组合监控</div>
+
+              <div class="nsc-desc">大数据全网智能监控，帮助用户更高效地掌握债券舆情、价格、存续、风险变化。</div>
+
+              <div class="nsc-title">投研社区</div>
+
+              <div class="nsc-desc">“雷区”系列信用投资研讨群为国内最活跃的机构间投资交流群。</div>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/tradingInformation/icon/2-3.png" width="100" /></div>
+
+            <div class="nsc-keyword">板块深踪</div>
+
+            <div class="nsc-content">
+
+              <div class="nsc-title">小道消息</div>
+
+              <div class="nsc-desc">深入监控市场各大群组、社区及论坛等小道平台，独家汇聚市场非公开信息，超前捕捉债项违约动态。</div>
+
+              <div class="nsc-title">城投地图</div>
+
+              <div class="nsc-desc">涵盖各省GDP、政府性债务、城投债务余额、城投平台数4大必备指标。联动百家投研机构，量化政府实力、平台与政府紧密度和平台自身经营3大模块。根据投资者的风险偏好，匹配最优城投投资组合。</div>
+
+            </div>
+
+          </li>
+
+          
+
+        </ul>
+
+</div>
+
+
+
+<div class="normal-section sec4 pc_visible" id="sec4">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-dark">
+
+          <div class="normal-section-title-t1">服务客户</div>
+
+          <div class="normal-section-title-t2">Success Stories</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <ul>
+
+          <li><img src="imgs/tradingInformation/bank/pc/1.png" /></li>
+
+          <li><img src="imgs/tradingInformation/bank/pc/2.png" /></li>
+
+          <li><img src="imgs/tradingInformation/bank/pc/3.png" /></li>
+
+          <li><img src="imgs/tradingInformation/bank/pc/4.png" /></li>
+
+          <li><img src="imgs/tradingInformation/bank/pc/5.png" /></li>
+
+          <li><img src="imgs/tradingInformation/bank/pc/6.png" /></li>
+
+          <li><img src="imgs/tradingInformation/bank/pc/7.png" /></li>
+
+          <li><img src="imgs/tradingInformation/bank/pc/8.png" /></li>
+
+          <li><img src="imgs/tradingInformation/bank/pc/9.png" /></li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<div id="trial_area" class="mobile_visible Success">
+
+  <div class="scen_h1_title"><span>服务客户</span><font>Success Stories</font></div>
+
+  <div class="nscfr" style="text-align:center">
+
+  <img src="imgs/tradingInformation/wap-client1.jpg"/>
+
+  </div>
+
+</div>
+
+
+
+
+
+<div class="normal-section sec5 pc_visible" id="sec5">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-dark">
+
+          <div class="normal-section-title-t1">体验使用</div>
+
+          <div class="normal-section-title-t2">Trial</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <div class="nsc-item1">Windows版本下载链接</div>
+
+        <div class="nsc-item2"><a href="http://download.innodealing.com/DMLiteSetup/DM-Lite_Setup.exe" target="_blank">http://download.innodealing.com/DMLiteSetup/DM-Lite_Setup.exe</a></div>
+
+        <div class="nsc-item3">APP版本下载二维码</div>
+
+        <div class="nsc-item4"><img src="imgs/tradingInformation/bank/qrcode.png" width="100" /></div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="trial_area" class="mobile_visible">
+
+  <div class="scen_h1_title"><span>体验使用</span><font>Trial</font></div>
+
+  <div class="nscfl-title" style="text-align: center;"> Windows版本下载链接 </div>
+
+  <div class="nscfl-btn"><a href="http://download.innodealing.com/DMLiteSetup/DM-Lite_Setup.exe" target="_blank">点击下载</a> </div>
+
+  <div class="nscfl-title" style="text-align: center;"> APP版本下载二维码 </div>
+
+  <div class="nscfl-title" style="text-align: center;"><img src="imgs/tradingInformation/bank/qrcode.png" width="100" /></div>
+
+  
+
+</div>
+
+
+
+
+
+
+
+<div class="normal-section sec6" id="sec6">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-light">
+
+          <div class="normal-section-title-t1">常见问题</div>
+
+          <div class="normal-section-title-t2">FAQs</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <div class="nsc-fl">
+
+          <div class="nsc-title">Q1：数据主要来源于哪些渠道？</div>
+
+          <div class="nsc-desc">A：外部DM针对不同板块有固定合作的数据供应商，内部拥有专业的数据团队进行采编、加工及质检。</div>
+
+        </div>
+
+        <div class="nsc-fr">
+
+          <div class="nsc-title">Q2：产品是否支持数据导出功能？</div>
+
+          <div class="nsc-desc">A：目前DM终端的数据无法直接导出，如果有相关数据导出服务需求，可直接联系4000-918-000。</div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="clear"></div>
+
+<div id="footer" class="footer">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 footer-content">
+
+        <ul class="footer-content-ul">
+
+          <li>
+
+            <div class="footer-menu-item" style="float: left;">
+
+            <a class="footer-menu-blink" href="">关于我们</a>
+
+            <p>
+
+            <a class="footer-menu-slink" href="aboutus.html">了解信用云</a> 
+
+            <a class="footer-menu-slink" href="contactus.html">联系我们</a>
+
+            </p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item" style="margin: 0 auto;">
+
+            <a class="footer-menu-blink" href="">产品及服务</a>
+
+            <p>
+
+            <a class="footer-menu-slink" href="internal-credit-rating.html">债乎 CreditMaster</a>
+
+            <a class="footer-menu-slink" href="risk-monitor-and-warning.html">中证预鉴 CreditPortal</a> <a class="footer-menu-slink" href="trading-information.html">DealingMatrix</a>
+
+            </p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item" style="margin: 0 auto;"> <a class="footer-menu-blink" href="">解决方案</a>
+
+            <p><a class="footer-menu-slink" href="construction-of-internal-rating-system.html">券商内部评级体系建设</a> <a class="footer-menu-slink" href="management-of-financing-guarantee-business.html">融担业务综合管理</a> 
+
+            <a class="footer-menu-slink" href="investor-internal-evaluation.html">投资者适当性管理</a>
+
+            </p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item" style="margin: 0 auto;"> <a class="footer-menu-blink" href="">资源中心</a> 
+
+            <p><a class="footer-menu-slink" href="api-0.html">文档中心</a></p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item"> <a class="footer-menu-blink" href="">相关链接</a>
+
+            <p><a class="footer-menu-slink" href="https://www.chinacsci.com/zh_chs/">中证信用官网</a> <a class="footer-menu-slink" href="https://www.xinyongyun.com/">中证信用云官网</a>
+
+             <a class="footer-menu-slink" href="http://www.cspengyuan.com/zh-cn/index">中证鹏元官网</a>
+
+             </p>
+
+             </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 footer-bottom">
+
+        <div class="footer-bottom-wrapper">
+
+          <div class="footer-bottom-left"></div>
+
+          <div class="footer-bottom-right">Copyright&copy;2015-2019  中证信用增进股份有限公司<span class="br"></span>  版权所有 <a href="http://www.beian.miit.gov.cn">粤ICP备15058755号-1</a></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="btnrb"><a class="btnrb-contactus" href="contactus.html"> 联<br>
+
+  系<br>
+
+  我<br>
+
+  们 </a>
+
+  <div class="btnrb-gototop"> <img src="imgs/index/tarrow.png" width="100%;"></div>
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+
+isapi = 0;</script>
+
+<script src="js/public.js"></script>
+
+<script src="js/menu.js"></script><script src="js/product.js"></script>
+
+</body>
+
+</html>

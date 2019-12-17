@@ -1,0 +1,73 @@
+.top-banner { width:100%; height:680px; margin:0; padding:0; background-image: url(../imgs/ConstructionofInternalRatingSystem/pc/web/banner.jpg); background-position: center center; background-size: cover; }
+.top-banner .container { margin: 0 auto; position: relative; }
+.top-banner-content { height:680px; }
+.top-banner-title { margin-top: 250px; width:50%; height: 54px; text-align: left; font-size: 36px; color: #FFFFFF; line-height: 54px; }
+.top-banner-desc { margin-top: 30px; width:50%; height: auto; font-size: 16px; color: #FFFFFF; text-align: left; line-height: 24px; }
+.top-banner-btn { width:50%; height: 40px; margin-top: 50px; text-align: left; }
+.top-banner-btn a { width:180px; height: 40px; border: 1px solid #0E85D9; display: block; line-height: 40px; text-align: center; font-size: 14px; color: #FFFFFF; letter-spacing: 0; float: left; margin-right: 20px; }
+.top-banner-btn a:hover { background-color: #0E85D9; text-decoration: none; }
+.top-banner-btn a.active { background-color: #0E85D9; text-decoration: none; }
+/***/
+ .sec3 { /*  设置参数  */ height: 745px; background-image: url(../imgs/ConstructionofInternalRatingSystem/pc/web/1-Scheme-Advantage.jpg); }
+.sec3 .normal-section-title { /*  设置参数  */ height:243px; }
+.sec3 .normal-section-content { /*  设置参数  */ height:392px; margin: 0; padding: 0; }
+.sec3 .normal-section-content ul { width:100%; height: 392px; margin: 0; padding: 0; list-style: none; background-color: #fff; }
+.sec3 .normal-section-content ul li { width:20%; height: 392px; overflow: hidden; float: left; position: relative; padding: 20px 30px; }
+.sec3 .nsc-icon { width:100px; height: 100px; margin: 20px auto 0 auto; }
+.sec3 .nsc-keyword { width:100%; height: auto; margin: 30px auto 0 auto; font-size: 24px; color: #242728; letter-spacing: 0; text-align: center; line-height: 36px; }
+.sec3 .nsc-desc { width:100%; height: auto; margin: 10px auto 0 auto; font-size: 14px; color: #5F696D; letter-spacing: 0; text-align: justify; line-height: 22px; }
+/***/
+ .sec5 { /*  设置参数  */ height: 913px; background-image: url(../imgs/ConstructionofInternalRatingSystem/pc/web/2-Service-Advantage.jpg); }
+.sec5 .normal-section-title { /*  设置参数  */ height:243px; }
+.sec5 .normal-section-content { /*  设置参数  */ height:620px; margin: 0; padding: 0; }
+.sec5 .nscfl { width:48%; height: 620px; float: right; }
+.sec5 .nscfl .nscfl-title { width:100%; height: auto; font-size: 14px; color: #242728; line-height: 22px; }
+.sec5 .nscfl .nscfl-desc { margin-top: 20px; width:100%; height: auto; font-size: 14px; color: #242728; letter-spacing: 0; line-height: 22px; }
+.sec5 .nscfl .nscfl-desc a { width:180px; height: 40px; font-size: 14px; color: #242728; text-align: center; line-height: 40px; display: block; margin-right: 30px; float: left; border: 1px solid #0086E0; }
+.sec5 .nscfr { width:48%; height: auto; float: left; }
+.sec5 .nscfr img { width:100%; }
+/***/
+.sec4 { /*  设置参数  */
+    height: 817px; background-image: url(../imgs/ConstructionofInternalRatingSystem/pc/web/3-Application-Scene.jpg); }
+.sec4 .normal-section-title { /*  设置参数  */
+    height:243px; }
+.sec4 .normal-section-subtitle { /*  设置参数  */
+    height:64px; font-size: 16px; color: #FFFFFF; text-align: center; line-height: 24px; }
+.sec4 .normal-section-content { /*  设置参数  */
+    height:400px; margin: 0; padding: 0; }
+.sec4 .normal-section-content ul { width:100%; height: 420px; overflow: hidden; margin: 50px auto 0 auto; padding: 0; }
+.sec4 .normal-section-content ul li { float:left; width:18%; opacity: 0.59; padding:25px 0; background: #2F2A77; margin-right:2.5%; margin-bottom:2.5%}
+.sec4 .normal-section-content ul li:nth-child(5n){ margin-right:0}
+.sec4 .normal-section-content ul li img{ display:block; height:40px;width:auto; margin:0 auto}
+ /**/
+@media (max-width: 1439px) {
+.sec4 .normal-section-content ul li img{ display:block; height:30px;width:auto; margin:0 auto}	
+.sec4 .normal-section-content,.sec4 .normal-section-content ul{ height:auto}
+}
+@media (max-width: 1080px) {
+.sec4 .normal-section-subtitle{ height:auto}	
+.sec4{ padding:100px 0; padding-bottom:60px;}	
+.sec4 .normal-section-content ul li{ width:31%; margin-right:3.5%; margin-bottom:3.5%}
+.sec4 .normal-section-content ul li:nth-child(5n){ margin-right:3.5%}
+.sec4 .normal-section-content ul li:nth-child(3n){ margin-right:0}
+.sec4{ height:auto}
+.sec4 .container{ width:100%; padding:0 20px}
+.normal-section-title{ height:auto; padding:0;}
+.sec4 .normal-section-title{ height:auto; margin-bottom:50px;}
+.sec4 .normal-section-content, .sec4 .normal-section-content ul{ margin:0; margin-top:20px;}
+.normal-section-title-wrapper{ width:100%; height:auto; margin:0}
+.normal-section-title-t1:before{ width:20%; margin-right:25px; height:1px; display:inline-block; content:""; background:#999; vertical-align:middle}
+.normal-section-title-t1:after{ width:20%; margin-left:25px; height:1px; display:inline-block; content:""; background:#999; vertical-align:middle}	
+.nst-light .normal-section-title-l1{ display:none}
+.nst-light .normal-section-title-l2{ display:none}
+}
+@media (max-width:600px) {
+.sec4 .normal-section-content ul li{ padding:15px 0}	
+.sec4 .normal-section-content ul li img{ display:block; height:20px;width:auto; margin:0 auto}		
+}
+@media (max-width:430px) {
+.sec4 .normal-section-content ul li{ width:48%; margin-right:4%; margin-bottom:4%}
+.sec4 .normal-section-content ul li:nth-child(5n){ margin-right:4%}
+.sec4 .normal-section-content ul li:nth-child(3n){ margin-right:4%}
+.sec4 .normal-section-content ul li:nth-child(2n){ margin-right:0%}	
+}

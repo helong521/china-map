@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>
+        China Securities Credit Investment
+    </title>
+    <link rel="icon" href="/assets/imgs/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/assets/imgs/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/assets/css/plugin.min.css">
+<link href="/assets/css/app.css" rel="stylesheet"></head>
+
+<body id="home" class="home loading-fixed en">
+    <div class="csci-loading"></div>
+    <header>
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container nav-home">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/en/index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="about-us"><a href="/en/about-us/">About Us</a></li>
+        <li class="credit-services"><a href="/en/credit-services/">Credit Services</a></li>
+        <li class="credit-solution"><a href="/en/solution/">Solutions</a></li>
+        <li class="credit-cloud"><a href="/en/credit-cloud.html">Credit Cloud</a></li>
+        <li class="news"><a href="/en/news/index.html">News</a></li>
+        <li>
+            <ul class="lang-menu">
+                <li><a href="javascript:void(0)">简</a> <span>|</span></li>
+                <li><a href="javascript:void(0)">EN</a></li>
+            </ul>
+            <!-- <div class="dropdown change-lang">
+                <a class="dropdown-toggle" type="button" id="changSiteCode" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    EN
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="changSiteCode">
+                    <li><a href="javascript:void(0)">简</a></li>
+                    <li><a href="javascript:void(0)">EN</a></li>
+                </ul>
+            </div> -->
+        </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+  <div class="bg-home-gray"></div>
+</nav>
+
+    </header>
+    <!--home kv section-->
+    <div class="swiper-container home-swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="mask">
+                    <img class="slide-img-pc" src="/assets/imgs/home/home-kv1.jpg" alt="">
+                    <img class="slide-img-pad" src="/assets/imgs/home/home-kv-pad01.jpg" alt="">
+                    <img class="slide-img-mobile" src="/assets/imgs/home/home-kv-m01@2x.jpg" alt="">
+                </div>
+                <div class="swiper-content">
+                    <div class="container s-content-item">
+                        <h2>
+                            China's Leading Credit-Tech Service Provider
+                        </h2>
+                        <p>
+                            Focus on investment & financing needs of large, medium, small-sized enterprises as well as compliance supervision need; provide integrated credit solutions, and committed to create credit value  through technology
+                        </p>
+                        <a href="about-us/" class="btn-csci bubble">
+                            Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="mask">
+                    <img class="slide-img-pc" src="/assets/imgs/home/banner/banner2.jpg" alt="">
+                    <img class="slide-img-pad" src="/assets/imgs/home/banner/banner2-pad.jpg" alt="">
+                    <img class="slide-img-mobile" src="/assets/imgs/home/banner/banner2-m.jpg" alt="">
+                </div>
+                <div class="swiper-content">
+                    <div class="container s-content-item">
+                        <h2>
+                            Technology-driven Value Generation in Credit-tech
+                        </h2>
+                        <p>
+                            New Oliver Wyman and CSCI Report Reveals Credit-tech Will Contribute 40% of Credit Serving Revenue by 2022, Increasing at a CAGR of 163%
+                        </p>
+                        <a href="https://www.oliverwyman.com/our-expertise/insights/2019/apr/china-credit-tech-market-report.html" target="_blank" class="btn-csci bubble">
+                            Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="mask">
+                    <img class="slide-img-pc" src="/assets/imgs/home/home-kv3.jpg" alt="">
+                    <img class="slide-img-pad" src="/assets/imgs/home/home-kv-pad03.jpg" alt="">
+                    <img class="slide-img-mobile" src="/assets/imgs/home/home-kv-m03@2x.jpg" alt="">
+                </div>
+                <div class="swiper-content">
+                    <div class="container s-content-item">
+                        <h2>
+                            China Securities Credit Investment Joins The Linux Foundation and Hyperledger
+                        </h2>
+                        <p>
+                            Actively participate in building credit ecosystem to promote the application of blockchain in the field of credit technology
+                        </p>
+                        <a href="/en/article.html?id=138" class="btn-csci bubble">
+                            Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="mask">
+                    <img class="slide-img-pc" src="/assets/imgs/home/home-kv4.jpg" alt="">
+                    <img class="slide-img-pad" src="/assets/imgs/home/home-kv-pad04.jpg" alt="">
+                    <img class="slide-img-mobile" src="/assets/imgs/home/home-kv-m04@2x.jpg" alt="">
+                </div>
+                <div class="swiper-content">
+                    <div class="container s-content-item">
+                        <h2>
+                            Credit Rating Services
+                        </h2>
+                        <p>
+                            The first integrated provider of domestic bond market investment risk management services in China’s market, helping domestic and foreign investors to make investment decisions rapidly and accurately
+                        </p>
+                        <a href="/en/credit-services/credit-evaluation-service.html" class="btn-csci bubble">
+                            Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="mask">
+                    <img class="slide-img-pc" src="/assets/imgs/home/home-kv5.jpg" alt="">
+                    <img class="slide-img-pad" src="/assets/imgs/home/home-kv-pad05.jpg" alt="">
+                    <img class="slide-img-mobile" src="/assets/imgs/home/home-kv-m05@2x.jpg" alt="">
+                </div>
+                <div class="swiper-content">
+                    <div class="container s-content-item">
+                        <h2>
+                            Investment & Financing Solution For Personal Consumption
+                        </h2>
+                        <p>
+                            On the basis of compliance and controllability, provide solutions integrating technology and finance, and help quality enterprise to better serve the consumer finance market
+                        </p>
+                        <a href="/en/solution/personal.html" class="btn-csci bubble">
+                            Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination">
+            <ul></ul>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <!--home kv section end-->
+
+
+    <!--service section-->
+    <div class="bg-white home-container">
+        <div class="container">
+            <h4>
+                Credit Services
+            </h4>
+            <h2>
+                Technology driven credit value chain, safeguarding the whole life cycle of credit assets
+            </h2>
+            <p class="text-desc">
+                Apply such new technologies as big data, artificial intelligence, blockchain and cloud computing, build credit infrastructure serving the whole life cycle of credit assets, and develop the capacity for serving the whole credit value chain, thus to reduce risk management costs, improve the circulation efficiency of credit assets, and eliminate risks in credit asset investment
+            </p>
+            <div class="service-content clearfix">
+                <div class="service-left">
+                    <div class="service-group">
+                        <p class="service-title">
+                            Credit Risk Management
+                        </p>
+                    </div>
+                    <ul>
+                        <li data-aos="fade-up" data-aos-delay="10">
+                            <div>
+                                <a href="credit-services/index.html">
+                                    <div class="img-block">
+                                        <img src="/assets/imgs/home/credence_service-img1.png" alt="" />
+                                        <div class="service-category data">
+                                            <p>
+                                                Data Services
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="100">
+                            <div>
+                                <a href="credit-services/credit-evaluation-service.html">
+                                    <div class="img-block">
+                                        <img src="/assets/imgs/home/credence_service-img2.png" alt="" />
+                                        <div class="service-category evaluation">
+                                            <p>
+                                                Credit Rating Services
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <div>
+                                <a href="credit-services/data-contral-services.html">
+                                    <div class="img-block">
+                                        <img src="/assets/imgs/home/credence_service-img3.png" alt="" />
+                                        <div class="service-category contral">
+                                            <p>
+                                                Data-driven Risk Control Services
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="service-right">
+                    <div class="service-group">
+                        <p class="service-title">
+                            Credit Enhancement
+                        </p>
+                    </div>
+                    <ul>
+                        <li data-aos="fade-up" data-aos-delay="300">
+                            <div>
+                                <a href="credit-services/credit-added-services.html">
+                                    <div class="img-block">
+                                        <img src="/assets/imgs/home/credence_service-img4.png" alt="" />
+                                        <div class="service-category promote">
+                                            <p>
+                                                Credit Enhancement Services
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="service-right">
+                    <div class="service-group">
+                        <p class="service-title">
+                            Credit Asset Trading Services and Management
+                        </p>
+                    </div>
+                    <ul>
+                        <li data-aos="fade-up" data-aos-delay="400">
+                            <div>
+                                <a href="credit-services/trading-management-services.html">
+                                    <div class="img-block">
+                                        <img src="/assets/imgs/home/credence_service-img5.png" alt="" />
+                                        <div class="service-category trading">
+                                            <p>
+                                                Credit Asset Trading Services and Management
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="service-content-mo">
+                <ul>
+                    <li>
+                        <p class="service-mo-title">
+                            Credit risk management
+                        </p>
+                        <div class="service-content-child">
+                            <a href="credit-services/index.html">
+                                <img src="/assets/imgs/home/service-icon-img1.png" alt="" />
+                                Data Services
+                            </a>
+                            <a href="credit-services/credit-evaluation-service.html">
+                                <img src="/assets/imgs/home/service-icon-img2.png" alt="" />
+                                Credit Rating Services
+                            </a>
+                            <a href="credit-services/data-contral-services.html">
+                                <img src="/assets/imgs/home/service-icon-img3.png" alt="" />
+                                Data-driven Risk Control Services
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="service-mo-title">
+                            Credit Enhancement
+                        </p>
+                        <div class="service-content-child">
+                            <a href="credit-services/credit-added-services.html"><img src="/assets/imgs/home/service-icon-img4.png" alt="" />
+                                Credit Enhancement Services
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="service-mo-title">
+                            Credit Asset Trading Services and Management
+                        </p>
+                        <div class="service-content-child">
+                            <a href="credit-services/trading-management-services.html"><img src="/assets/imgs/home/service-icon-img5.png" alt="" />
+                                Credit Asset Trading Services and Management
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--service section end-->
+    <!--solution section-->
+    <div class="bg-light-grey home-container">
+        <div class="container">
+            <h4>
+                Solutions
+            </h4>
+            <h2>
+                Provide integrated solutions and build a safe and efficient financial credit service system
+            </h2>
+            <p class="text-desc">
+                Focusing on the investment & financing needs of large, medium and small-sized enterprises, consumer finance, and compliance supervision, use technology to quantify financial risks, and provide full credit value chain service coverage, from credit risk management, credit enhancement, to credit asset trading services and management; and provide safe, efficient and convenient integrated credit solutions for our clients
+            </p>
+            <div class="soultion-block">
+                <ul class="clearfix">
+                    <li data-aos="fade-up" data-aos-easing="linear" data-aos-delay="0">
+                        <div class="soultion-item">
+                            <img src="/assets/imgs/home/soultion-img1.png" alt="" class="pc-img" />
+                            <img src="/assets/imgs/home/soultion-img1-mo.jpg" alt="" class="mo-img" />
+                            <p class="soultion-box-title">
+                                Large enterprise investment and financing
+                            </p>
+                            <a href="solution/index.html" class="soultion-learn_more">
+                                <p class="title-learn_more">
+                                    Large enterprise investment and financing
+                                </p>
+                                <p class="solution-hover-desc">
+                                    Integrate service capabilities such as credit internal evaluation, external evaluation and credit enhancement to help enterprises make scientific investment and financing decisions
+                                </p>
+                                <p class="btn-learn_more"><b>
+                                        Learn More</b></p>
+                            </a>
+                        </div>
+                    </li>
+                    <li data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100">
+                        <div class="soultion-item">
+                            <img src="/assets/imgs/home/soultion-img2.png" alt="" class="pc-img" />
+                            <img src="/assets/imgs/home/soultion-img2-mo.jpg" alt="" class="mo-img" />
+                            <p class="soultion-box-title">
+                                Small and medium-sized enterprises investment and financing
+                            </p>
+                            <a href="solution/small-and-medium.html" class="soultion-learn_more">
+                                <p class="title-learn_more">
+                                    Small and medium-sized enterprises investment and financing
+                                </p>
+                                <p class="solution-hover-desc">
+                                    Use data to reshape credit value, and empower medium-sized, small and micro businesses to reduce the difficulty and costs of financing
+                                </p>
+                                <p class="btn-learn_more"><b>
+                                        Learn More</b></p>
+                            </a>
+                        </div>
+                    </li>
+                    <li data-aos="fade-up" data-aos-easing="linear" data-aos-delay="200">
+                        <div class="soultion-item">
+                            <img src="/assets/imgs/home/soultion-img3.png" alt="" class="pc-img" />
+                            <img src="/assets/imgs/home/soultion-img3-mo.jpg" alt="" class="mo-img" />
+                            <p class="soultion-box-title">
+                                Consumer finance services
+                            </p>
+                            <a href="solution/personal.html" class="soultion-learn_more">
+                                <p class="title-learn_more">
+                                    Consumer finance services
+                                </p>
+                                <p class="solution-hover-desc">
+                                    Adopt multi-dimensional access criteria, ensure the compliance and security of underlying assets, and help successful institutions to better participate in consumer finance market
+                                </p>
+                                <p class="btn-learn_more"><b>
+                                        Learn More</b></p>
+                            </a>
+                        </div>
+                    </li>
+                    <li data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">
+                        <div class="soultion-item">
+                            <img src="/assets/imgs/home/soultion-img4.png" alt="" class="pc-img" />
+                            <img src="/assets/imgs/home/soultion-img4-mo.jpg" alt="" class="mo-img" />
+                            <p class="soultion-box-title">
+                                Compliance Supervision Support
+                            </p>
+                            <a href="solution/compliance-supervision.html" class="soultion-learn_more">
+                                <p class="title-learn_more">
+                                    Compliance Supervision Support
+                                </p>
+                                <p class="solution-hover-desc">
+                                    Offer data technology and data analysis services to help regulatory bodies to improve efficiency
+                                </p>
+                                <p class="btn-learn_more"><b>
+                                        Learn More</b></p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--CreditCloud section-->
+    <div class="creditcloud-section">
+        <div class="container home-container">
+            <h2>
+                Credit Cloud
+            </h2>
+            <p class="text-desc">
+                Use artificial intelligence and blockchain technology to build a cloud platform serving the credit ecosystem
+            </p>
+            <a class="btn-csci bubble" href="credit-cloud.html">
+                Learn More</a>
+        </div>
+    </div>
+    <!--CreditCloud section end-->
+    <!--Partner section-->
+    <div class="bg-light-grey home-container bg-p-btm">
+        <div class="container">
+            <h4>
+                Important Clients
+            </h4>
+            <div class="partner-list partner-swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <ul>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img1@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img2@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img3@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img4@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img5@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img6@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img7@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img8@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img9@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img10@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img11@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img12@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img13@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img14@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img15@2x.png" alt="" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img16@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img17@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img18@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img19@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img20@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img21@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img22@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img23@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img24@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img25@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img26@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img27@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img28@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img29@2x.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="/assets/imgs/home/partner-img30@2x.png" alt="" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <!--Partner section end-->
+
+    <div class="bg-white home-container">
+        <div class="container">
+            <!-- Nav tabs -->
+            <div class="news-header">
+                <h4 class="pull-left">News</h4>
+                <ul class="pull-right nav nav-tabs">
+                    <li class="active">
+                        <a href="#Announcement" role="tab" data-toggle="tab" aria-controls="Announcement" data-category="XWFB">Press Releases</a>
+                    </li>
+                    <li>
+                        <a href="#Mediacoverage" role="tab" data-toggle="tab" aria-controls="Mediacoverage" data-category="MTBD">Media Coverage</a>
+                    </li>
+                    <li>
+                        <a href="#InfoDisclosure" role="tab" data-toggle="tab" aria-controls="InfoDisclosure" data-category="XXPL">Disclosure</a>
+                    </li>
+                    <li>
+                        <a href="news/index.html">More</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Tab panes -->
+            <div class="tab-content segment news-segment">
+                <div role="tabpanel" class="tab-pane news-box active" id="Announcement">
+                    <div class="loader"></div>
+                    <div class="reloader"></div>
+                    <div class="news-box-left"></div>
+                    <div class="news-box-right">
+                        <ul></ul>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane news-box" id="Mediacoverage">
+                    <div class="loader"></div>
+                    <div class="reloader"></div>
+                    <div class="news-box-left"></div>
+                    <div class="news-box-right">
+                        <ul></ul>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="InfoDisclosure">
+                    <div class="news-infoDisclosure">
+                        <ul></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--news center section-->
+    <!-- <div class="bg-white home-container">
+        <div class="container">
+            <div class="news-header">
+                <h4 class="pull-left">
+                    News
+                </h4>
+                <ul class="pull-right nav nav-tabs" id="myTabs">
+                    <li class="active">
+                        <a href="#announcement" role="tab" data-toggle="tab" aria-controls="announcement" data-category="XWFB">
+                            Press Releases</a>
+                    </li>
+                    <li>
+                        <a href="#MediaCoverage" role="tab" data-toggle="tab" aria-controls="MediaCoverage"
+                            data-category="MTBD">
+                            Media Coverage</a>
+                    </li>
+                    <li>
+                        <a href="#InformationDisclosure" role="tab" data-toggle="tab" aria-controls="InformationDisclosure"
+                            data-category="XXPL">
+                            Disclosure</a>
+                    </li>
+                    <li>
+                        <a href="news.html">
+                            More</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="myTabContent" class="tab-content segment news-segment">
+                <div class="loader"></div>
+                <div class="reloader"></div>
+                <div class="news-box tab-pane active" id="MediaCoverage">
+                    <div class="news-box-left"></div>
+                    <div class="news-box-right">
+                        <ul></ul>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="InformationDisclosure">
+                    <div class="news-infoDisclosure">
+                        <ul></ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+
+    <!--news center section end-->
+
+    </div>
+
+    <footer>
+        
+        <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 company-info">
+        <div class="footer-logo">
+          <a href="/en/index.html"><img src="/assets/imgs/logo-red.svg" /></a>
+        </div>
+        <a class="company-site-collapse">Address</a>
+        <ul class="company-site" role="tablist">
+          <li role="presentation" class="active">
+            <a href="#site-shenzhen" aria-controls="site-shenzhen" role="tab" data-toggle="tab">Shenzhen (Headquarter)</a>
+          </li>
+          <li role="presentation">
+            <a href="#site-beijing" aria-controls="site-beijing" role="tab" data-toggle="tab">Beijing</a>
+          </li>
+          <li role="presentation">
+            <a href="#site-shanghai" aria-controls="site-shanghai" role="tab" data-toggle="tab">Shanghai</a>
+          </li>
+          <li role="presentation">
+            <a href="#site-wuhan" aria-controls="site-wuhan" role="tab" data-toggle="tab">Wuhan</a>
+          </li>
+          <li role="presentation">
+            <a href="#site-chongqing" aria-controls="site-chongqing" role="tab" data-toggle="tab">Chongqing</a>
+          </li>
+        </ul>
+        <div class="tab-content company-address">
+          <div role="tabpanel" class="tab-pane fade in active" id="site-shenzhen">
+            <p>Headquarter Address: 44/F, Shenzhen Stock Exchange Square, 2012 Shennan Avenue, Futian District, Shenzhen, Guangdong, China<br>Tel: 0755-84362888  Fax: 0755-83653315</p>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="site-beijing">
+            <p>19/F, Block B, Xinsheng Building, 5 Financial Street, Xicheng District, Beijing<br>Tel：010-6658 1858 Fax：010-66581860</p>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="site-shanghai">
+            <p>Room 903, West Tower, Clove International Business Center, 1299 Minsheng Road, Pudong New Area, Shanghai<br>Tel: 021-6858 3180  Fax: 021-68583186</p>
+            <p>R05, 2/F, Building E, Fuxing Soho Square, 388 Ma Dang Road, Huangpu District, Shanghai<br>Tel: 021-63235513</p>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="site-wuhan">
+            <p>Room 1905, Room 2203, Jinhe Center, 191 Xudong Street, Hongshan District, Wuhan</p>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="site-chongqing">
+            <p>Room 27-7, Building 1, Lifan Center, Jiangbeizui, Jiangbei District, Chongqing<br>Tel: 023-67720563</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 text-right">
+        <div class="right-sec">
+          <div class="sitemap">
+            <a href="/en/site-map.html">Site Map</a>
+          </div>
+          <div class="joinus">
+            <a class="joinus-menu">Join Us</a>
+            <div class="joinus-more">
+              <div><a href="http://zhaopin.chinacsci.com/main/talent_acquisition/index.shtml" target="_blank">Talent Introduction</a></div>
+              <div><a href="/en/talent-development.html">Wonderful Career</a></div>
+            </div>
+          </div>
+          <div class="social-media">
+            <a href="javascript:void(0);" class="social-media-btn">Social Media 
+              <div class="social-media-qr"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row footer-copyright">
+      <div class="col-sm-4">
+        <a href="/en/privacy-policy.html">Privacy Policy</a>
+        <span>|</span>
+        <a href="/en/legal-statement.html">Legal Statement</a>
+      </div>
+      <div class="col-sm-8 copyright">
+        Copyright&copy;2015-2019&nbsp;&nbsp;China Securities Credit Investment Co., Ltd&nbsp;&nbsp;All rights reserved&nbsp;&nbsp;<a target="_blank" href="http://www.miit.gov.cn/">ICP#:15058755-1</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="back-to-top">
+    <a href="javascript:void(0);" class="backToTop"></a>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3343e156915d65856849e17a362dba14";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    </footer>
+    <script src="/assets/js/plugin.min.js"></script>
+<script type="text/javascript" src="/assets/js/app.bundle.js"></script></body>
+
+</html>

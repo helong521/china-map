@@ -1,0 +1,1336 @@
+
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>债乎 CreditMaster - CSCI信用云</title>
+
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+
+<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+
+<link rel="stylesheet" href="css/swiper.min.css">
+
+<link rel="stylesheet" href="css/common.css">
+
+<link rel="stylesheet" type="text/css" href="css/internal-credit-rating.css">
+
+<link rel="stylesheet" type="text/css" href="css/product_common.css">
+
+<style>
+
+#scenarios_area{ background:#fff url(imgs/product_service/banner2.jpg) no-repeat; background-size:100% auto}
+
+@media (max-width: 1080px) {
+
+.top-banner{background:url(imgs/product_service/banner1.jpg); background-size:100% auto}
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<!-- 头部style -->
+
+<div id="header" class="container-fluid ">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-2">
+
+      <img id="logo_w" class="gotohome" src="imgs/logo_400x120_w.png?t=1576435631" height="60">
+
+      <img id="logo_b" class="gotohome" src="imgs/logo_400x120_b.png?t=1576435631" height="60">
+
+      </div>
+
+      <div class="col-md-10">
+
+        <i class="mobilemmenuclose"></i>
+
+        <ul class="cscinav">
+
+          <li class=""><a href="index.html">首页</a></li>
+
+          <li class="hover"><a href="internal-credi-rating.html">产品及服务</a>
+
+            <div class="subnav-section">
+
+              <div class="container">
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <div class="ss-l1"> <a class="active" id="menubtn_2_1">信用服务</a> </div>
+
+                    <div class="ss-btns" id="menu_2_1">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-title">信用风险管理</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="internal-credit-rating.html">债乎 CreditMaster</a>
+
+                          <a href="internal-credit-rating.html" class="sscollinksubtext">债券信用风险一站式管理</a></div>
+
+                        <div class="ss-col-link"><a href="data-risk-control.html">云瞻</a>
+
+                          <a href="data-risk-control.html" class="sscollinksubtext">消费金融数据风控</a></div>
+
+                        <div class="ss-col-link"><a href="risk-monitor-and-warning.html">中证预鉴 CreditPortal</a>
+
+                          <a href="risk-monitor-and-warning.html" class="sscollinksubtext">企业信用风险传导预警平台</a></div>
+
+                      </div>
+
+                      <div class="ss-col2">
+
+                        <div class="ss-col-title">信用增进</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="risk-business-general-management.html">风险业务综合管理平台</a>
+
+                          <a href="risk-business-general-management.html" class="sscollinksubtext">集业务管理与风险管理为一体</a></div>
+
+                        <div class="ss-col-link"><a href="SME-financing.html">中小微增信服务平台</a>
+
+                          <a href="SME-financing.html" class="sscollinksubtext">助贷服务、资产服务</a></div>
+
+                      </div>
+
+                      <div class="ss-col3">
+
+                        <div class="ss-col-title">信用资产交易管理服务</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="bond-evaluation-and-pricing.html">Ratingdog</a>
+
+                          <a href="bond-evaluation-and-pricing.html" class="sscollinksubtext">债券估值与定价</a></div>
+
+                        <div class="ss-col-link"><a href="trading-information.html">DealingMatrix</a>
+
+                          <a href="trading-information.html" class="sscollinksubtext">债券及同业报价</a></div>
+
+                        <div class="ss-col-link"><a href="NPls-evaluation.html">不良资产估值</a>
+
+                          <a href="NPls-evaluation.html" class="sscollinksubtext">不良资产估值辅助工具</a></div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="ss-l2"> <a class="" id="menubtn_2_2">基础服务</a> </div>
+
+                    <div class="ss-btns" id="menu_2_2" style="display: none;">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-title">数据服务</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="Daas.html">DaaS</a>
+
+                          <a href="Daas.html" class="sscollinksubtext">企业数据服务</a></div>
+
+                      </div>
+
+                      <div class="ss-col2">
+
+                        <div class="ss-col-title">功能服务</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="Baas.html">BaaS</a>
+
+                          <a href="Baas.html" class="sscollinksubtext">中证区块链基础服务</a></div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="ss-sepline"></div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class="" id="menu_solution"><a href="construction-of-internal-rating-system.html">解决方案</a>
+
+            <div class="subnav-section">
+
+              <div class="container">
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <div class="ss-sepline"></div>
+
+                    <div class="ss-l1"> <a class="active">解决方案</a> </div>
+
+                    <div class="ss-btns">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-title">证券</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-llink"><a href="construction-of-internal-rating-system.html">内部评级体系建设</a></div>
+
+                        <div class="ss-col-llink"><a href="investor-internal-evaluation.html">投资者适当性管理</a></div>
+
+                      </div>
+
+                      <div class="ss-col3">
+
+                        <div class="ss-col-title">融资担保</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-llink"><a href="management-of-financing-guarantee-business.html">融担业务综合管理</a></div>
+
+                      </div>
+
+                      <div class="ss-col4">
+
+                        <div class="ss-col-title">监管</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-llink"><a href="fund-risk-management.html">私募基金风险管理</a></div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class=""><a href="api-0.html">文档中心</a></li>
+
+          <li class="" id="menu_contact"><a href="aboutus.html">关于我们</a>
+
+            <div class="subnav-section">
+
+              <div class="container">
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <div class="ss-sepline"></div>
+
+                    <div class="ss-l1"><a class="active">关于我们</a> </div>
+
+                    <div class="ss-btns">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-llink"><a href="about-us.html">了解信用云</a></div>
+
+                        <div class="ss-col-llink"><a href="contact-us.html">联系我们</a></div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+      
+
+      <div class="burger">
+
+      <div class="x"></div>
+
+      <div class="y"></div>
+
+      <div class="z"></div>
+
+      </div>
+
+      
+
+      
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="top-banner">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 top-banner-content">
+
+        <div class="top-banner-title" > 债乎 CreditMaster </div>
+
+        <div class="top-banner-desc" > “数据+模型+系统”信用风险管理一站式服务，致力于为中国债券市场投资人建立以大数据为基础、风险可量化的信用风险工程化评估体系，实现风险的精细化控制，为客户投资生命周期保驾护航。 </div>
+
+        <div class="top-banner-btn" > <a href="contact-us.html">联系我们</a> <a href="https://master.chinacscs.com/#/passport/login" target="_blank" class="active">体验Credit Master</a> </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<div class="fastNavBar">
+
+  <ul>
+
+    <li><a href="#sec1">应用场景</a></li>
+
+    <li><a href="#sec2">核心价值</a></li>
+
+    <li><a href="#sec3">功能服务</a></li>
+
+    <li><a href="#sec4">服务客户</a></li>
+
+    <li><a href="#sec5">体验使用</a></li>
+
+    <li><a href="#sec6">常见问题</a></li>
+
+  </ul>
+
+</div>
+
+
+
+
+
+<div class="normal-section sec1 pc_visible" id="sec1">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-dark">
+
+          <div class="normal-section-title-t1">应用场景</div>
+
+          <div class="normal-section-title-t2">Scenarios</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <ul>
+
+          <li>
+
+            <div class="nsculli-title">风控合规<span></span></div>
+
+            <div class="nsculli-desc">海量数据结合灵活的信用风险评估模型，对接金融机构客户数据，评估交易对手、发债主体信用风险、动态监测集中度风险，覆盖风控部门对信用业务的审批、投后动态管理等多个场景，贯彻和实施全面风险管理，提升金融机构整体风控能力，减少因违约引起的资金损失。</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-title">固定收益投资<span></span></div>
+
+            <div class="nsculli-desc">实时监测全市场信用情况，建立动态债券池、监测持仓债券发行人的信用资质变化，覆盖固定收益类业务的投前准入、投中决策、投后动态管理等多个场景，提升金融机构投资的整体风控能力，减少因违约引起的资金损失。</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-title">投资研究<span></span></div>
+
+            <div class="nsculli-desc">提供海量结构化企业财务、经营等多项数据及市场舆情信息，支持投研人员投资策略研究、投研报告编写，节省数据汇集时间，提升流程化日常工作效率，集中人力产出高价值成果。</div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="scenarios_area" class="mobile_visible">
+
+  <div class="scen_h1_title"> <span>应用场景</span> <font>Scenarios</font> </div>
+
+  <ul>
+
+    <li>
+
+      <div class="nsculli-title">风控合规<span></span></div>
+
+      <div class="nsculli-desc">海量数据结合灵活的信用风险评估模型，对接金融机构客户数据，评估交易对手、发债主体信用风险、动态监测集中度风险，覆盖风控部门对信用业务的审批、投后动态管理等多个场景，贯彻和实施全面风险管理，提升金融机构整体风控能力，减少因违约引起的资金损失。</div>
+
+    </li>
+
+    <li>
+
+      <div class="nsculli-title">固定收益投资<span></span></div>
+
+      <div class="nsculli-desc">实时监测全市场信用情况，建立动态债券池、监测持仓债券发行人的信用资质变化，覆盖固定收益类业务的投前准入、投中决策、投后动态管理等多个场景，提升金融机构投资的整体风控能力，减少因违约引起的资金损失。</div>
+
+    </li>
+
+    <li>
+
+      <div class="nsculli-title">投资研究<span></span></div>
+
+      <div class="nsculli-desc">提供海量结构化企业财务、经营等多项数据及市场舆情信息，支持投研人员投资策略研究、投研报告编写，节省数据汇集时间，提升流程化日常工作效率，集中人力产出高价值成果。</div>
+
+    </li>
+
+  </ul>
+
+</div>
+
+
+
+
+
+<div class="normal-section sec2 pc_visible" id="sec2">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-dark">
+
+          <div class="normal-section-title-t1">核心价值</div>
+
+          <div class="normal-section-title-t2">Value Proposition</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <ul>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/internalCrediRating/2-icon/1.png" /></div>
+
+            <div class="nsculli-title">信用风险一站式方案落地<span></span></div>
+
+            <div class="nsculli-desc">以标准化一站式服务，实施短平快的方案落地，支持投资人快速搭建符合自身情况的信用风险管理体系。</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/internalCrediRating/2-icon/2.png" /></div>
+
+            <div class="nsculli-title">全市场风险量化评价体系<span></span></div>
+
+            <div class="nsculli-desc">覆盖全市场、全行业的独家信用主体和债项风险评价及智能分析模型，以数据论信用，为债市投资提供客观理性的分析。</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/internalCrediRating/2-icon/3.png" /></div>
+
+            <div class="nsculli-title">多维信用风险分析数据<span></span></div>
+
+            <div class="nsculli-desc">丰富的风险指标体系和多维度覆盖信用风险分析数据，包括特色的主体结构化经营数据、100%覆盖的城投企业和地方政府信息。</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/internalCrediRating/2-icon/4.png" /></div>
+
+            <div class="nsculli-title">实时动态的大数据信用预警<span></span></div>
+
+            <div class="nsculli-desc">基于大数据、自然语言处理(NLP)和网络爬虫的信用预警体系，实时采集相关新闻事件，由机器处理和专家认定形成预警，协助企业及时排查和响应潜在风险。</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/internalCrediRating/2-icon/5.png" /></div>
+
+            <div class="nsculli-title">全生命周期信用风险管理系统<span></span></div>
+
+            <div class="nsculli-desc">以数据为驱动、模型为核心，实现系统自动评级、分析和预警，帮助投资人动态管理投前、投中和投后场景的信用风险。</div>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+<!---mobile--->
+
+<div id="value_area" class="mobile_visible">
+
+  <div class="scen_h1_title"><span>核心价值</span> <font>Value Proposition</font> </div>
+
+  <ul>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/internalCrediRating/2-icon/1.png" /></div>
+
+            <div class="nsculli-title">信用风险一站式方案落地<span></span></div>
+
+            <div class="nsculli-desc">以标准化一站式服务，实施短平快的方案落地，支持投资人快速搭建符合自身情况的信用风险管理体系。</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/internalCrediRating/2-icon/2.png" /></div>
+
+            <div class="nsculli-title">全市场风险量化评价体系<span></span></div>
+
+            <div class="nsculli-desc">覆盖全市场、全行业的独家信用主体和债项风险评价及智能分析模型，以数据论信用，为债市投资提供客观理性的分析。</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/internalCrediRating/2-icon/3.png" /></div>
+
+            <div class="nsculli-title">多维信用风险分析数据<span></span></div>
+
+            <div class="nsculli-desc">丰富的风险指标体系和多维度覆盖信用风险分析数据，包括特色的主体结构化经营数据、100%覆盖的城投企业和地方政府信息。</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/internalCrediRating/2-icon/4.png" /></div>
+
+            <div class="nsculli-title">实时动态的大数据信用预警<span></span></div>
+
+            <div class="nsculli-desc">基于大数据、自然语言处理(NLP)和网络爬虫的信用预警体系，实时采集相关新闻事件，由机器处理和专家认定形成预警，协助企业及时排查和响应潜在风险。</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/internalCrediRating/2-icon/5.png" /></div>
+
+            <div class="nsculli-title">全生命周期信用风险管理系统<span></span></div>
+
+            <div class="nsculli-desc">以数据为驱动、模型为核心，实现系统自动评级、分析和预警，帮助投资人动态管理投前、投中和投后场景的信用风险。</div>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+        </ul>
+
+</div>
+
+
+
+
+
+<div class="normal-section sec3 pc_visible" id="sec3">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-light">
+
+          <div class="normal-section-title-t1">功能服务</div>
+
+          <div class="normal-section-title-t2">Functionality</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <div class="nscfl icrleftmenu">
+
+          <ul>
+
+            <li class="active" curnum="1">
+
+              <div class="nscfl-icon"><img src="imgs/internalCrediRating/3-icon/1.png"></div>
+
+              <div class="nscfl-text">数据</div>
+
+              <span class="bg1"></span> <span class="bg2"></span> </li>
+
+            <li curnum="2">
+
+              <div class="nscfl-icon"><img src="imgs/internalCrediRating/3-icon/2.png"></div>
+
+              <div class="nscfl-text">模型</div>
+
+              <span class="bg1"></span> <span class="bg2"></span> </li>
+
+            <li curnum="3">
+
+              <div class="nscfl-icon"><img src="imgs/internalCrediRating/3-icon/3.png"></div>
+
+              <div class="nscfl-text">系统</div>
+
+              <span class="bg1"></span> <span class="bg2"></span> </li>
+
+          </ul>
+
+        </div>
+
+        <div class="nscfr">
+
+          <div class="divcontent" id="divcontent1">
+
+            <div class="nscfrdesc">
+
+              <div class="nscfrdesc-fl">服务场景</div>
+
+              <div class="nscfrdesc-fr">为机构内部信用评级分析体系、风险管理等工作提供基础和指标级的数据支持。</div>
+
+            </div>
+
+            <div class="nscfrdesc">
+
+              <div class="nscfrdesc-fl">数据范围</div>
+
+              <div class="nscfrdesc-fr">覆盖全市场公募信用债发债主体及其对应的21个敞口下的财务经营指标，并持续更新新发债主体数据。</div>
+
+            </div>
+
+            <div class="nscfrdesc">
+
+              <div class="nscfrdesc-fl">数据质量</div>
+
+              <div class="nscfrdesc-fr">在数据源选择、数据采集、数据质量监测等流程中，通过技术和流程的不断优化，严格把控数据质量。</div>
+
+            </div>
+
+            <div class="nscfrdesc">
+
+              <div class="nscfrdesc-fl">数据特征</div>
+
+              <div class="nscfrdesc-fr"> 全面性：全面覆盖市场存续期公募信用债公开信息，包括主体经营数据及地方政府财政经济数据等。<br>
+
+                <br>
+
+                及时性： 专业数据采集团队辅以自开发采集系统，确保数据高效更新。<br>
+
+                <br>
+
+                标准化：统一采集口径，全面量化、标准化处理指标字段，支持直接对接评级模型。<br>
+
+                <br>
+
+                可实施：系统化数据落地，满足机构方的信息安全和监控要求，支持与机构现行数据平台及业务系统对接。<br>
+
+                <br>
+
+                专业性：经各行业用户验证，指标体系符合信用分析的逻辑，满足信用评价和分析的需求。 </div>
+
+            </div>
+
+          </div>
+
+          <div class="divcontent" id="divcontent2" style="display: none;">
+
+            <div class="nscfrdesc">
+
+              <div class="nscfrdesc-full">全面的模型体系 : <br>
+
+                以金融机构、工商企业、融资平台维度划分21个敞口的模型体系，覆盖全市场发债主体。</div>
+
+            </div>
+
+            <div class="nscfrdesc">
+
+              <div class="nscfrdesc-full">产品覆盖度高 : <br>
+
+                模型评价范围包括公开债券、融资融券、股票质押业务、非标产品等，覆盖证券公司全信用业务条线。</div>
+
+            </div>
+
+            <div class="nscfrdesc">
+
+              <div class="nscfrdesc-full">量化评估+信用分析逻辑 : <br>
+
+                模型方法采取量化开发，风险指标遵从行业、企业信用分析逻辑框架，充分结合数量分析方法和信用分析师经验，更符合信评场景下的专家使用习惯。</div>
+
+            </div>
+
+            <div class="nscfrdesc">
+
+              <div class="nscfrdesc-full"> 精细量化风险结果 : <br>
+
+                全方位数量刻画各维度的信用风险，包括主体的违约概率，产品的违约损失率和预期损失等，满足机构对内数量化信用风险管理的要求，对外监管合规的要求。 </div>
+
+            </div>
+
+          </div>
+
+          <div class="divcontent" id="divcontent3" style="display: none;">
+
+            <div class="nscfrdesc">
+
+              <div class="nscfrdesc-full">信用风险一览 : <br>
+
+                多角度统计持仓情况，直观建立风险大局观。</div>
+
+            </div>
+
+            <div class="nscfrdesc">
+
+              <div class="nscfrdesc-full">上市、发债企业库及证券产品库 : <br>
+
+                一键查询7W+核心企业和16W+债项信息，企业和债券展台展现丰富的工商、财务、经营、评级等多维信息。 </div>
+
+            </div>
+
+            <div class="nscfrdesc">
+
+              <div class="nscfrdesc-full">信用预警 : <br>
+
+                多源舆情数据接入、标准化信息聚合、灵活的预警规则配置和预警提醒，快速精准监控持仓风险。</div>
+
+            </div>
+
+            <div class="nscfrdesc">
+
+              <div class="nscfrdesc-full"> 组合管理 : <br>
+
+                持仓、禁投、自定义分组管理，提供穿透式组合管理及组合信用分析。 </div>
+
+            </div>
+
+            <div class="nscfrdesc">
+
+              <div class="nscfrdesc-full"> 评级流程 : <br>
+
+                内嵌数据驱动的自动化评级引擎，任务流转灵活，匹配客户各类业务流程。 </div>
+
+            </div>
+
+            <div class="nscfrdesc">
+
+              <div class="nscfrdesc-full"> 模型配置 : <br>
+
+                支持统计模型、打分卡模型等主流建模方法下的评级模型配置，从基础指标到模型均可配置，灵活程度高。 </div>
+
+            </div>
+
+            <div class="nscfrdesc">
+
+              <div class="nscfrdesc-full"> 权限和系统配置 : <br>
+
+                支持部门层级管理，从数据权限和功能权限双重控制敏感数据和用户权限。 </div>
+
+            </div>
+
+          </div>
+
+          <div class="divbg"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="stories_area" class="mobile_visible">
+
+  <div class="scen_h1_title"><span>功能服务</span> <font>Functionality</font> </div>
+
+  <ul>
+
+  <li>
+
+  <label>某银行</label>
+
+  <div class="stories_next">
+
+  <div class="stories_title">服务内容</div>
+
+  <div class="stories_p">根据该客户的具体风险要求，明确搭建规则和要素，搭建符合该客户需求的可投库，协助该客户从投前端做好信用风险管理。</div>
+
+  </div>
+
+  </li>
+
+    <li>
+
+  <label>某基金</label>
+
+  <div class="stories_next">
+
+  <div class="stories_title">服务内容</div>
+
+  <div class="stories_p">针对该客户投资过程中具体债项或主体，提供主体评价报告或风险点评报告。协助该客户实时深入了解投资标的的信用风险和估值风险，更好做出投资决策。</div>
+
+  </div>
+
+  </li>
+
+    <li>
+
+  <label>某保险资管</label>
+
+  <div class="stories_next">
+
+  <div class="stories_title">服务内容</div>
+
+  <div class="stories_p">针对全市场存续及新发信用债提供Ratingdog研究支持数据库，并将全量数据与该客户内部投资管理系统进行对接，为该客户的内评流程和投资决策提供第三方意见参考。</div>
+
+  </div>
+
+  </li>
+
+    <li>
+
+<label>某大型券商</label>
+
+<div class="stories_next">
+
+<div class="stories_title">服务内容</div>
+
+<div class="stories_p">针对该客户明确提出的高收益债相关投资需求，为其提供市场上部分投资标的分析，作为投资参考。</div>
+
+</div>
+
+  </li>
+
+  
+
+  </ul>
+
+</div> 
+
+
+
+<div class="normal-section sec4 pc_visible" id="sec4">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-dark">
+
+          <div class="normal-section-title-t1">服务客户</div>
+
+          <div class="normal-section-title-t2">Success Stories</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <ul>
+
+          <li><img src="imgs/internalCrediRating/4-icon/1.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/2.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/3.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/4.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/5.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/6.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/7.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/8.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/9.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/10.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/11.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/12.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/13.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/14.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/15.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/16.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/17.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/18.png"></li>
+
+          <li><img src="imgs/internalCrediRating/4-icon/19.png"></li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="trial_area" class="mobile_visible" style="background:#fbfbfb">
+
+  <div class="scen_h1_title"><span>服务客户</span><font>Success Stories</font></div>
+
+  <div class="nscfr"><img src="imgs/internalCrediRating/wap-fwkh.jpg" /></div>
+
+</div>
+
+
+
+
+
+<div class="normal-section sec5 pc_visible" id="sec5">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-dark">
+
+          <div class="normal-section-title-t1">体验使用</div>
+
+          <div class="normal-section-title-t2">Trial</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <div class="nscfl">
+
+          <div class="nscfl-title"> </div>
+
+          <div class="nscfl-desc"> 债券信用风险管理一站式服务，Credit Master为投资生命周期保驾护航 </div>
+
+          <div class="nscfl-btn"> <a href="https://master.chinacscs.com/#/passport/login" target="_blank">体验Credit Master</a> </div>
+
+        </div>
+
+        <div class="nscfr"><img src="imgs/ExperiencePics/zhaihu.jpg" /></div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="trial_area" class="mobile_visible">
+
+  <div class="scen_h1_title"><span>体验使用</span><font>Trial</font></div>
+
+  <div class="nscfl-title" style="text-align: center;"> 债券信用风险管理一站式服务，Credit Master为投资生命周期保驾护航 </div>
+
+  
+
+  <div class="nscfl-btn"><a href="https://www.ratingdog.cn/#/home" target="_blank">体验Credit Master</a> </div>
+
+  <div class="nscfr"><img src="imgs/ExperiencePics/zhaihu.jpg" /></div>
+
+</div>
+
+
+
+
+
+<div class="normal-section sec6" id="sec6">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-light">
+
+          <div class="normal-section-title-t1">常见问题</div>
+
+          <div class="normal-section-title-t2">FAQs</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <div class="nsc-fl">
+
+          <div class="nsc-title">Q1：对企业或者债项评级时，系统如何针对该标的自动判断选择哪种模型？</div>
+
+          <div class="nsc-desc">A：服务团队会对每个公募债发行人判定敞口并把敞口数据推送到系统来，系统在对企业发起评级时会读取敞口信息，然后使用对应的模型，每个敞口对应不同的评级模型。</div>
+
+        </div>
+
+        <div class="nsc-fr">
+
+          <div class="nsc-title">Q2：债券模型跑出的评级结果是否与它的主体跑出的模型评级一样？债券本身的参数指标是否会对模型评级结果产生影响？</div>
+
+          <div class="nsc-desc">A：如果是纯信用债没有抵质押，一般债券级别=主体级别；如果是次级债，一般低于主体评级一个级别；如果是有抵质押或第三方担保人，级别可能高于主体评级，最高不过两个级别。</div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="clear"></div>
+
+<div id="footer" class="footer">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 footer-content">
+
+        <ul class="footer-content-ul">
+
+          <li>
+
+            <div class="footer-menu-item" style="float: left;">
+
+            <a class="footer-menu-blink" href="">关于我们</a>
+
+            <p>
+
+            <a class="footer-menu-slink" href="aboutus.html">了解信用云</a> 
+
+            <a class="footer-menu-slink" href="contactus.html">联系我们</a>
+
+            </p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item" style="margin: 0 auto;">
+
+            <a class="footer-menu-blink" href="">产品及服务</a>
+
+            <p>
+
+            <a class="footer-menu-slink" href="internal-credit-rating.html">债乎 CreditMaster</a>
+
+            <a class="footer-menu-slink" href="risk-monitor-and-warning.html">中证预鉴 CreditPortal</a> <a class="footer-menu-slink" href="trading-information.html">DealingMatrix</a>
+
+            </p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item" style="margin: 0 auto;"> <a class="footer-menu-blink" href="">解决方案</a>
+
+            <p><a class="footer-menu-slink" href="construction-of-internal-rating-system.html">券商内部评级体系建设</a> <a class="footer-menu-slink" href="management-of-financing-guarantee-business.html">融担业务综合管理</a> 
+
+            <a class="footer-menu-slink" href="investor-internal-evaluation.html">投资者适当性管理</a>
+
+            </p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item" style="margin: 0 auto;"> <a class="footer-menu-blink" href="">资源中心</a> 
+
+            <p><a class="footer-menu-slink" href="api-0.html">文档中心</a></p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item"> <a class="footer-menu-blink" href="">相关链接</a>
+
+            <p><a class="footer-menu-slink" href="https://www.chinacsci.com/zh_chs/">中证信用官网</a> <a class="footer-menu-slink" href="https://www.xinyongyun.com/">中证信用云官网</a>
+
+             <a class="footer-menu-slink" href="http://www.cspengyuan.com/zh-cn/index">中证鹏元官网</a>
+
+             </p>
+
+             </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 footer-bottom">
+
+        <div class="footer-bottom-wrapper">
+
+          <div class="footer-bottom-left"></div>
+
+          <div class="footer-bottom-right">Copyright&copy;2015-2019  中证信用增进股份有限公司<span class="br"></span>  版权所有 <a href="http://www.beian.miit.gov.cn">粤ICP备15058755号-1</a></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="btnrb"><a class="btnrb-contactus" href="contactus.html"> 联<br>
+
+  系<br>
+
+  我<br>
+
+  们 </a>
+
+  <div class="btnrb-gototop"> <img src="imgs/index/tarrow.png" width="100%;"></div>
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+
+isapi = 0;</script>
+
+<script src="js/public.js"></script>
+
+<script src="js/menu.js"></script><script src="js/product.js"></script>
+
+<script>
+
+  var icrleftNum = 1;
+
+  
+
+  $(".icrleftmenu li").click(function(){
+
+    $(".icrleftmenu li").removeClass("active");
+
+    $( this ).addClass("active");
+
+    icrleftNum = $(this).attr("curnum");
+
+    $(".divcontent").stop().hide();
+
+    $("#divcontent"+icrleftNum).stop().fadeIn( 500 );
+
+  });
+
+  
+
+
+
+  
+
+</script>
+
+</body>
+
+</html>

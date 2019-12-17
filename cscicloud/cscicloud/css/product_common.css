@@ -1,0 +1,89 @@
+/* CSS Document */
+.pc_visible{ display:block}
+.mobile_visible{ display:none}
+@media (max-width: 1080px) {
+.pc_visible{ display:none}
+.mobile_visible{ display:block}
+/**/	
+.top-banner{ height:auto; padding:40px 20px;}	
+.top-banner .container{ width:100%}
+.top-banner-content{ height:auto; padding:0}
+.top-banner-title{ width:100%;margin:0; padding:0; text-align:center; margin-top:50px; font-size:28px; line-height:40px; height:auto}
+.top-banner-desc{ width:100%; margin:25px 0; padding:0; text-align:center;}
+.top-banner-btn{ width:100%; margin-top:0}
+.top-banner-btn a{ width:100%; margin:10px 0}
+.fastNavBar{ display:none}
+/***/
+.sec6{ height:auto; padding:100px 0; padding-bottom:60px;}
+.sec6 .normal-section-title{ height:auto; text-align:center; padding:0; margin:0; margin-bottom:50px;}
+.normal-section-title-t1:before{ width:20%; margin-right:25px; height:1px; display:inline-block; content:""; background:#fff; vertical-align:middle}
+.normal-section-title-t1:after{ width:20%; margin-left:25px; height:1px; display:inline-block; content:""; background:#fff; vertical-align:middle}
+.normal-section .container{ width:100%}
+.normal-section-title-wrapper{ width:100%; margin:0; padding:0}
+.nst-light .normal-section-title-l1{ display:none}
+.nst-light .normal-section-title-l2{ display:none}
+.sec6 .normal-section-content{ height:auto; padding:0 20px;}
+.sec6 .nsc-fl{ width:100%; margin:10px 0; height:auto; padding-bottom:30px;}
+.sec6 .nsc-fr{ width:100%; margin:10px 0; height:auto; padding-bottom:30px;}
+}
+
+@media (max-width: 1080px) {
+#scenarios_area { padding:100px 20px; padding-bottom:60px; }
+#scenarios_area ul,#scenarios_area li{ list-style:none; margin:0; padding:0;}
+.scen_h1_title { margin-bottom:50px;}
+.scen_h1_title span { height: 45px; margin: 0 auto; font-size:26px; line-height: 45px; text-align: center; display:block; color:#242728 }
+.scen_h1_title font { display:block; height: 18px; margin: 0 auto; font-size: 12px; line-height: 18px; text-align: center; color:#5F696D}
+.scen_h1_title span:before{ width:20%; margin-right:25px; height:1px; display:inline-block; content:""; background:#999; vertical-align:middle}
+.scen_h1_title span:after{ width:20%; margin-left:25px; height:1px; display:inline-block; content:""; background:#999; vertical-align:middle}
+#scenarios_area li span { background-position: center center; background-size: cover; width: 20px; height: 20px; position: absolute; left: 0; top: 8px; }
+#scenarios_area li:first-child{ margin-top:0}
+#scenarios_area li{ padding:30px; color:#fff; margin:10px 0;background:url(../imgs/product_service/bbg.jpg) no-repeat; background-size:100% 100%;}
+#scenarios_area li .nsculli-title{ position:relative;font-size: 20px;color: #FFFFFF;letter-spacing: 0; line-height: 36px; padding-left:30px;}
+#scenarios_area li .nsculli-desc{ line-height:22px; font-size:14px; padding-top:15px;}
+#scenarios_area li:nth-child(1) span {background-image: url(../imgs/bondEvaluationAndPricing/pc/1/icon/1.png);}
+#scenarios_area li:nth-child(2) span {background-image: url(../imgs/bondEvaluationAndPricing/pc/1/icon/2.png);}
+#scenarios_area li:nth-child(3) span {background-image: url(../imgs/bondEvaluationAndPricing/pc/1/icon/3.png);}
+#scenarios_area li:nth-child(4) span {background-image: url(../imgs/bondEvaluationAndPricing/pc/1/icon/4.png);}
+/***********/
+#value_area ul,#value_area li{ list-style:none; margin:0; padding:0;}
+#value_area{padding:100px 20px; padding-bottom:60px;background: url(../imgs/bondEvaluationAndPricing/pc/2/bg.png) no-repeat; background-size:auto 100%}
+#value_area span,#value_area font{ color:#fff}
+#value_area .scen_h1_title span:before,#value_area .scen_h1_title span:after{ background:#fff}
+#value_area li{ background:#FFF; position:relative; padding:0 0px; padding-top:15px; border-bottom:1px solid #D8D8D8; padding-bottom:25px;}
+#value_area li .nsculli-icon{ position:absolute; left:25px;top:15px}
+#value_area li .nsculli-icon img{ width:50px; height:50px;}
+#value_area li .nsculli-title{font-size: 18px;color: #181818;letter-spacing: 0;line-height: 28px; padding:0px 25px; padding-right:50px; padding-left:85px; padding-top:10px; position:relative}
+#value_area li .nsculli-title:after{ content:""; display:block; position:absolute; right:25px; top:20px; background-image:url(../imgs/menu/icon6.png); background-repeat:no-repeat; background-position:center center; width:14px;  height:9px; background-size:100% 100%}
+#value_area li .nsculli-title.on:after{ background-image:url(../imgs/menu/icon7.png)}
+#value_area li .nsculli-desc{ display:none;font-size: 14px;color: #5F696D;letter-spacing: 0;text-align: justify;line-height: 22px; padding:20px 25px; padding-bottom:0}
+/****/
+#function_area .scen_h1_title{ margin-bottom:50px;}
+#function_area{ background:#fff; padding:100px 20px; padding-bottom:60px;}
+#function_area ul,#function_area li{ list-style:none; margin:0; padding:0;}
+#function_area li{ position:relative; padding-bottom:25px; border-bottom:1px solid #D8D8D8;}
+#function_area li .nsc-icon{ position:absolute; left:0; top:10px}
+#function_area li img{ width:50px; height:50px;}
+#function_area li .nsc-keyword{font-size: 18px;color: #242728;letter-spacing: 0; padding-left:70px;line-height: 28px; padding-top:18px; position:relative}
+#function_area li .nsc-keyword:after{ content:""; width:14px; height:14px; background:url(../imgs/product_service/jia.png) no-repeat; background-size:100% auto; display:block; position:absolute; right:10px; top:30px;}
+#function_area li .nsc-keyword.on:after{ background-image:url(../imgs/product_service/jiaj.png)}
+#function_area li .nsc-title{ font-weight:bold;color: #242728; line-height:22px; font-size:14px; padding-top:15px;}
+#function_area li .nsc-desc{font-size: 14px;color: #656E72; line-height:22px;}
+.nsc-content{ display:none; padding-top:15px;}
+/****/
+#stories_area{ background:url(../imgs/product_service/www.jpg) no-repeat; background-size:100% 100%; padding:100px 20px; padding-bottom:60px;}
+#stories_area ul,#stories_area li{ list-style:none; margin:0; padding:0;}
+#stories_area li label{ font-size:18px;color: #242728; display:block; padding:15px 0; margin-bottom:0; position:relative}
+#stories_area li label:after{ content:""; display:block; position:absolute; right:0px; top:23px; background-image:url(../imgs/menu/icon6.png); background-position:inherit; width:14px;  height:9px; background-size:100% 100%}
+#stories_area li label.on:after{ background-image:url(../imgs/menu/icon7.png)}
+#stories_area li{ padding:0px 20px;}
+#stories_area li .stories_title{ margin-bottom:0; font-weight:bold; font-size:14px; line-height:22px; color:#fff}
+#stories_area li .stories_next{background:url(../imgs/product_service/w%27.jpg) no-repeat;background-size:100% 100%; color:#fff; padding:15px; display:none}
+#stories_area li .stories_p{ display:block; font-size:14px; line-height:22px; padding-top:10px;}
+#stories_area ul{ background:#fff; padding:10px 0}
+/****/
+#trial_area{ background:#fff url(../imgs/product_service/wl.jpg) no-repeat; background-size:100% 100%; padding:100px 20px; padding-bottom:60px}
+#trial_area .nscfl-title{font-size: 18px;color: #242728;letter-spacing: 0;line-height: 28px; margin-bottom:25px;}
+#trial_area li{font-size: 14px;color: #5F696D;letter-spacing: 0;line-height: 22px;}
+#trial_area .nscfl-btn{ width: 180px; height: 40px; margin:30px auto; border: 1px solid #0E85D9; text-align: center; font-size: 14px; color: #242728; letter-spacing: 0; line-height: 40px; display: block; text-decoration: none; }
+#trial_area .nscfr img{ width:100%; height:auto;}
+}

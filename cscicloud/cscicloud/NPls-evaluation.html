@@ -1,0 +1,986 @@
+
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>不良资产估值 - CSCI信用云</title>
+
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+
+<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+
+<link rel="stylesheet" href="css/swiper.min.css">
+
+<link rel="stylesheet" href="css/common.css">
+
+<link rel="stylesheet" type="text/css" href="css/NPls-evaluation.css">
+
+<link rel="stylesheet" type="text/css" href="css/product_common.css">
+
+<style>
+
+#scenarios_area{ background:#fff url(imgs/product_service/banner2.jpg) no-repeat; background-size:100% auto}
+
+@media (max-width: 1080px) {
+
+.top-banner{background:url(imgs/product_service/banner1.jpg); background-size:cover}
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<!-- 头部style -->
+
+<div id="header" class="container-fluid ">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-2">
+
+      <img id="logo_w" class="gotohome" src="imgs/logo_400x120_w.png?t=1576435880" height="60">
+
+      <img id="logo_b" class="gotohome" src="imgs/logo_400x120_b.png?t=1576435880" height="60">
+
+      </div>
+
+      <div class="col-md-10">
+
+        <i class="mobilemmenuclose"></i>
+
+        <ul class="cscinav">
+
+          <li class=""><a href="index.html">首页</a></li>
+
+          <li class="hover"><a href="internal-credi-rating.html">产品及服务</a>
+
+            <div class="subnav-section">
+
+              <div class="container">
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <div class="ss-l1"> <a class="active" id="menubtn_2_1">信用服务</a> </div>
+
+                    <div class="ss-btns" id="menu_2_1">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-title">信用风险管理</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="internal-credit-rating.html">债乎 CreditMaster</a>
+
+                          <a href="internal-credit-rating.html" class="sscollinksubtext">债券信用风险一站式管理</a></div>
+
+                        <div class="ss-col-link"><a href="data-risk-control.html">云瞻</a>
+
+                          <a href="data-risk-control.html" class="sscollinksubtext">消费金融数据风控</a></div>
+
+                        <div class="ss-col-link"><a href="risk-monitor-and-warning.html">中证预鉴 CreditPortal</a>
+
+                          <a href="risk-monitor-and-warning.html" class="sscollinksubtext">企业信用风险传导预警平台</a></div>
+
+                      </div>
+
+                      <div class="ss-col2">
+
+                        <div class="ss-col-title">信用增进</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="risk-business-general-management.html">风险业务综合管理平台</a>
+
+                          <a href="risk-business-general-management.html" class="sscollinksubtext">集业务管理与风险管理为一体</a></div>
+
+                        <div class="ss-col-link"><a href="SME-financing.html">中小微增信服务平台</a>
+
+                          <a href="SME-financing.html" class="sscollinksubtext">助贷服务、资产服务</a></div>
+
+                      </div>
+
+                      <div class="ss-col3">
+
+                        <div class="ss-col-title">信用资产交易管理服务</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="bond-evaluation-and-pricing.html">Ratingdog</a>
+
+                          <a href="bond-evaluation-and-pricing.html" class="sscollinksubtext">债券估值与定价</a></div>
+
+                        <div class="ss-col-link"><a href="trading-information.html">DealingMatrix</a>
+
+                          <a href="trading-information.html" class="sscollinksubtext">债券及同业报价</a></div>
+
+                        <div class="ss-col-link"><a href="NPls-evaluation.html">不良资产估值</a>
+
+                          <a href="NPls-evaluation.html" class="sscollinksubtext">不良资产估值辅助工具</a></div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="ss-l2"> <a class="" id="menubtn_2_2">基础服务</a> </div>
+
+                    <div class="ss-btns" id="menu_2_2" style="display: none;">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-title">数据服务</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="Daas.html">DaaS</a>
+
+                          <a href="Daas.html" class="sscollinksubtext">企业数据服务</a></div>
+
+                      </div>
+
+                      <div class="ss-col2">
+
+                        <div class="ss-col-title">功能服务</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="Baas.html">BaaS</a>
+
+                          <a href="Baas.html" class="sscollinksubtext">中证区块链基础服务</a></div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="ss-sepline"></div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class="" id="menu_solution"><a href="construction-of-internal-rating-system.html">解决方案</a>
+
+            <div class="subnav-section">
+
+              <div class="container">
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <div class="ss-sepline"></div>
+
+                    <div class="ss-l1"> <a class="active">解决方案</a> </div>
+
+                    <div class="ss-btns">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-title">证券</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-llink"><a href="construction-of-internal-rating-system.html">内部评级体系建设</a></div>
+
+                        <div class="ss-col-llink"><a href="investor-internal-evaluation.html">投资者适当性管理</a></div>
+
+                      </div>
+
+                      <div class="ss-col3">
+
+                        <div class="ss-col-title">融资担保</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-llink"><a href="management-of-financing-guarantee-business.html">融担业务综合管理</a></div>
+
+                      </div>
+
+                      <div class="ss-col4">
+
+                        <div class="ss-col-title">监管</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-llink"><a href="fund-risk-management.html">私募基金风险管理</a></div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class=""><a href="api-0.html">文档中心</a></li>
+
+          <li class="" id="menu_contact"><a href="aboutus.html">关于我们</a>
+
+            <div class="subnav-section">
+
+              <div class="container">
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <div class="ss-sepline"></div>
+
+                    <div class="ss-l1"><a class="active">关于我们</a> </div>
+
+                    <div class="ss-btns">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-llink"><a href="about-us.html">了解信用云</a></div>
+
+                        <div class="ss-col-llink"><a href="contact-us.html">联系我们</a></div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+      
+
+      <div class="burger">
+
+      <div class="x"></div>
+
+      <div class="y"></div>
+
+      <div class="z"></div>
+
+      </div>
+
+      
+
+      
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="top-banner">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 top-banner-content">
+
+        <div class="top-banner-title" > 不良资产估值 </div>
+
+        <div class="top-banner-desc" > 结合市面主流公开资产数据，辅以地图信息方式将丰富的资产数据进行展示，实现资产数据与地理位置的整合，并应用特色资产估值分析模型评估资产内在价值，为资产尽调人员提供客观的、综合的资产分析报告，有效助力从业人员深入挖掘资产深层价值。 </div>
+
+        <div class="top-banner-btn" > <a href="contact-us.html">联系我们</a> </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+<div class="fastNavBar">
+
+  <ul>
+
+    <li><a href="#sec1">应用场景</a></li>
+
+    <li><a href="#sec2">核心价值</a></li>
+
+    <li><a href="#sec3">功能服务</a></li>
+
+    <li><a href="#sec5">体验使用</a></li>
+
+    <li><a href="#sec6">常见问题</a></li>
+
+  </ul>
+
+</div>
+
+
+
+
+
+<div class="normal-section sec1 pc_visible" id="sec1">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-dark">
+
+          <div class="normal-section-title-t1">应用场景</div>
+
+          <div class="normal-section-title-t2">Scenarios</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <div class="textitem">向不良资产尽调业务人士提供估值辅助工具，为业务人士提供估值参考，实现线上尽调。该系统具备资产地图、智能筛选、资产估值走势、资产估值分析报告等功能，适用于线上尽调场景，提高尽调效率，扩展尽调范围。</div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="scenarios_area" class="mobile_visible">
+
+  <div class="scen_h1_title"> <span>应用场景</span> <font>Scenarios</font> </div>
+
+  <ul>
+
+    <li>
+
+      <div class="nsculli-desc">向不良资产尽调业务人士提供估值辅助工具，为业务人士提供估值参考，实现线上尽调。该系统具备资产地图、智能筛选、资产估值走势、资产估值分析报告等功能，适用于线上尽调场景，提高尽调效率，扩展尽调范围。<span></span></div>
+
+      
+
+    </li>
+
+    
+
+  </ul>
+
+</div>
+
+
+
+<div class="normal-section sec2 pc_visible" id="sec2">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-light">
+
+          <div class="normal-section-title-t1">核心价值</div>
+
+          <div class="normal-section-title-t2">Value Proposition</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <ul>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/npisEvaluation/pc/2/icon/1.png" /></div>
+
+            <div class="nsculli-title">海量资产数据<span></span></div>
+
+            <div class="nsculli-desc">存量不良资产数据已达120万+，资产数据范围覆盖全国各大城市 </div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/npisEvaluation/pc/2/icon/3.png" /></div>
+
+            <div class="nsculli-title">资产智能筛选<span></span></div>
+
+            <div class="nsculli-desc">智能筛选引擎助力海量数据检索，多维度筛选条件实现资产标的准确匹配</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/npisEvaluation/pc/2/icon/4.png" /></div>
+
+            <div class="nsculli-title">估值辅助服务<span></span></div>
+
+            <div class="nsculli-desc">特色资产估值分析模型助力资产尽调，为资产尽调人员提供有效的资产分析报告</div>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="value_area" class="mobile_visible">
+
+  <div class="scen_h1_title"><span>核心价值</span> <font>Value Proposition</font> </div>
+
+  <ul>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/npisEvaluation/pc/2/icon/1.png" /></div>
+
+            <div class="nsculli-title">海量资产数据<span></span></div>
+
+            <div class="nsculli-desc">存量不良资产数据已达120万+，资产数据范围覆盖全国各大城市</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/npisEvaluation/pc/2/icon/3.png" /></div>
+
+            <div class="nsculli-title">资产智能筛选<span></span></div>
+
+            <div class="nsculli-desc">智能筛选引擎助力海量数据检索，多维度筛选条件实现资产标的准确匹配</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/npisEvaluation/pc/2/icon/4.png" /></div>
+
+            <div class="nsculli-title">估值辅助服务<span></span></div>
+
+            <div class="nsculli-desc">特色资产估值分析模型助力资产尽调，为资产尽调人员提供有效的资产分析报告</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          
+
+        </ul>
+
+</div>
+
+
+
+
+
+<div class="normal-section sec3 pc_visible" id="sec3">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-dark">
+
+          <div class="normal-section-title-t1">功能服务</div>
+
+          <div class="normal-section-title-t2">Functionality</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <ul>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/npisEvaluation/pc/3/1.png" width="100" /></div>
+
+            <div class="nsc-keyword">资产地图</div>
+
+            <div class="nsc-title"></div>
+
+            <div class="nsc-desc">有机地结合资产数据与地理位置信息，为资产尽调人员提供可视化的资产地图，全面展示资产及其周边地理信息。</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/npisEvaluation/pc/3/2.png" width="100" /></div>
+
+            <div class="nsc-keyword">智能搜索</div>
+
+            <div class="nsc-title"></div>
+
+            <div class="nsc-desc">从多维度搜索定位资产标的，准确定位所匹配的资产标的，实现资产标的快速检索。</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/npisEvaluation/pc/3/3.png" width="100" /></div>
+
+            <div class="nsc-keyword">资产价格走势</div>
+
+            <div class="nsc-title"></div>
+
+            <div class="nsc-desc">结合资产标的及其周边资产交易情况，自动分析资产的价格走势，纵览资产价格行情。</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/npisEvaluation/pc/3/4.png" width="100" /></div>
+
+            <div class="nsc-keyword">资产分析报告</div>
+
+            <div class="nsc-title"></div>
+
+            <div class="nsc-desc">基于特色资产估值分析模型评估资产内在价值，为从业人员提供资产估值报告。</div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="function_area" class="mobile_visible">
+
+  <div class="scen_h1_title"><span>功能服务</span> <font>Functionality</font> </div>
+
+  <ul>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/npisEvaluation/pc/3/1.png" width="100" /></div>
+
+            <div class="nsc-keyword">资产地图</div>
+
+            <div class="nsc-content">
+
+              <div class="nsc-title"></div>
+
+              <div class="nsc-desc">有机地结合资产数据与地理位置信息，为资产尽调人员提供可视化的资产地图，全面展示资产及其周边地理信息。</div>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/npisEvaluation/pc/3/2.png" width="100" /></div>
+
+            <div class="nsc-keyword">智能搜索</div>
+
+            <div class="nsc-content">
+
+              <div class="nsc-title"></div>
+
+              <div class="nsc-desc">从多维度搜索定位资产标的，准确定位所匹配的资产标的，实现资产标的快速检索。</div>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/npisEvaluation/pc/3/3.png" width="100" /></div>
+
+            <div class="nsc-keyword">资产价格走势</div>
+
+            <div class="nsc-content">
+
+              <div class="nsc-title"></div>
+
+              <div class="nsc-desc">结合资产标的及其周边资产交易情况，自动分析资产的价格走势，纵览资产价格行情。</div>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/npisEvaluation/pc/3/4.png" width="100" /></div>
+
+            <div class="nsc-keyword">资产分析报告</div>
+
+            <div class="nsc-content">
+
+              <div class="nsc-title"></div>
+
+              <div class="nsc-desc">基于特色资产估值分析模型评估资产内在价值，为从业人员提供资产估值报告。</div>
+
+            </div>
+
+          </li>
+
+        </ul>
+
+</div>
+
+
+
+
+
+
+
+<div class="normal-section sec5 pc_visible" id="sec5">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-dark">
+
+          <div class="normal-section-title-t1">体验使用</div>
+
+          <div class="normal-section-title-t2">Trial</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <div class="nsc-title">如有兴趣试用该产品请联系我们</div>
+
+        <div class="nsc-btn"><a href="contact-us.html">联系我们</a></div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="trial_area" class="mobile_visible">
+
+  <div class="scen_h1_title"><span>体验使用</span><font>Trial</font></div>
+
+  <div class="nscfl-title" style="text-align: center;"> 如有兴趣试用该产品请联系我们 </div>
+
+  
+
+  <div class="nscfl-btn"><a href="contact-us.html" target="_blank">联系我们</a> </div>
+
+
+
+</div>
+
+
+
+
+
+<div class="normal-section sec6" id="sec6">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-light">
+
+          <div class="normal-section-title-t1">常见问题</div>
+
+          <div class="normal-section-title-t2">FAQs</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <div class="nsc-fl">
+
+          <div class="nsc-title">Q1：不良资产信息的数据来源是否合规？数据规模是否会持续增加？</div>
+
+          <div class="nsc-desc">A：均为公开数据来源，计划未来引进更多合作渠道数据，确保数据的合规性、真实性、有效性。 </div>
+
+        </div>
+
+        <div class="nsc-fr">
+
+          <div class="nsc-title">Q2：不良资产估值分析结果是否具有参考意义？ </div>
+
+          <div class="nsc-desc">A：估值模型采用松耦合方式集成，该估值模型支持灵活调整以适应业务变化。估值分析过程采用了中证信用特色的资产估值模型，并已应用到实际的不良资产尽调过程，有效提高业务效率。</div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="clear"></div>
+
+<div id="footer" class="footer">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 footer-content">
+
+        <ul class="footer-content-ul">
+
+          <li>
+
+            <div class="footer-menu-item" style="float: left;">
+
+            <a class="footer-menu-blink" href="">关于我们</a>
+
+            <p>
+
+            <a class="footer-menu-slink" href="aboutus.html">了解信用云</a> 
+
+            <a class="footer-menu-slink" href="contactus.html">联系我们</a>
+
+            </p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item" style="margin: 0 auto;">
+
+            <a class="footer-menu-blink" href="">产品及服务</a>
+
+            <p>
+
+            <a class="footer-menu-slink" href="internal-credit-rating.html">债乎 CreditMaster</a>
+
+            <a class="footer-menu-slink" href="risk-monitor-and-warning.html">中证预鉴 CreditPortal</a> <a class="footer-menu-slink" href="trading-information.html">DealingMatrix</a>
+
+            </p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item" style="margin: 0 auto;"> <a class="footer-menu-blink" href="">解决方案</a>
+
+            <p><a class="footer-menu-slink" href="construction-of-internal-rating-system.html">券商内部评级体系建设</a> <a class="footer-menu-slink" href="management-of-financing-guarantee-business.html">融担业务综合管理</a> 
+
+            <a class="footer-menu-slink" href="investor-internal-evaluation.html">投资者适当性管理</a>
+
+            </p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item" style="margin: 0 auto;"> <a class="footer-menu-blink" href="">资源中心</a> 
+
+            <p><a class="footer-menu-slink" href="api-0.html">文档中心</a></p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item"> <a class="footer-menu-blink" href="">相关链接</a>
+
+            <p><a class="footer-menu-slink" href="https://www.chinacsci.com/zh_chs/">中证信用官网</a> <a class="footer-menu-slink" href="https://www.xinyongyun.com/">中证信用云官网</a>
+
+             <a class="footer-menu-slink" href="http://www.cspengyuan.com/zh-cn/index">中证鹏元官网</a>
+
+             </p>
+
+             </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 footer-bottom">
+
+        <div class="footer-bottom-wrapper">
+
+          <div class="footer-bottom-left"></div>
+
+          <div class="footer-bottom-right">Copyright&copy;2015-2019  中证信用增进股份有限公司<span class="br"></span>  版权所有 <a href="http://www.beian.miit.gov.cn">粤ICP备15058755号-1</a></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="btnrb"><a class="btnrb-contactus" href="contactus.html"> 联<br>
+
+  系<br>
+
+  我<br>
+
+  们 </a>
+
+  <div class="btnrb-gototop"> <img src="imgs/index/tarrow.png" width="100%;"></div>
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+
+isapi = 0;</script>
+
+<script src="js/public.js"></script>
+
+<script src="js/menu.js"></script><script src="js/product.js"></script>
+
+</body>
+
+</html>

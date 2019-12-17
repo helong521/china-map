@@ -1,0 +1,1188 @@
+
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>BaaS - CSCI信用云</title>
+
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+
+<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+
+<link rel="stylesheet" href="css/swiper.min.css">
+
+<link rel="stylesheet" href="css/common.css">
+
+<link rel="stylesheet" type="text/css" href="css/Baas.css">
+
+<link rel="stylesheet" type="text/css" href="css/product_common.css">
+
+<style>
+
+#scenarios_area { background:#fff url(imgs/product_service/banner2.jpg) no-repeat; background-size:100% auto }
+
+@media (max-width: 1080px) {
+
+.top-banner {
+
+background:url(imgs/product_service/banner1.jpg);
+
+background-size:100% auto
+
+}
+
+#scenarios_area li:nth-child(1) span {background-image: url(../imgs/Baas/icon/1-1.png);}
+
+#scenarios_area li:nth-child(2) span {background-image: url(../imgs/Baas/icon/1-2.png);}
+
+#scenarios_area li:nth-child(3) span {background-image: url(../imgs/Baas/icon/1-3.png);}
+
+#scenarios_area li:nth-child(4) span {background-image: url(../imgs/Baas/icon/1-4.png);}
+
+
+
+#trial_area.Success {
+
+  background: url(../imgs/Baas/pc/4-Serving-Customers.jpg);
+
+}
+
+#trial_area.Success .scen_h1_title *{ color:#fff}
+
+#trial_area.Success .scen_h1_title span:before,#trial_area.Success .scen_h1_title span:after{ background:#fff}
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<!-- 头部style -->
+
+<div id="header" class="container-fluid ">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-2">
+
+      <img id="logo_w" class="gotohome" src="imgs/logo_400x120_w.png?t=1576435932" height="60">
+
+      <img id="logo_b" class="gotohome" src="imgs/logo_400x120_b.png?t=1576435932" height="60">
+
+      </div>
+
+      <div class="col-md-10">
+
+        <i class="mobilemmenuclose"></i>
+
+        <ul class="cscinav">
+
+          <li class=""><a href="index.html">首页</a></li>
+
+          <li class="hover"><a href="internal-credi-rating.html">产品及服务</a>
+
+            <div class="subnav-section">
+
+              <div class="container">
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <div class="ss-l1"> <a class="active" id="menubtn_2_1">信用服务</a> </div>
+
+                    <div class="ss-btns" id="menu_2_1">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-title">信用风险管理</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="internal-credit-rating.html">债乎 CreditMaster</a>
+
+                          <a href="internal-credit-rating.html" class="sscollinksubtext">债券信用风险一站式管理</a></div>
+
+                        <div class="ss-col-link"><a href="data-risk-control.html">云瞻</a>
+
+                          <a href="data-risk-control.html" class="sscollinksubtext">消费金融数据风控</a></div>
+
+                        <div class="ss-col-link"><a href="risk-monitor-and-warning.html">中证预鉴 CreditPortal</a>
+
+                          <a href="risk-monitor-and-warning.html" class="sscollinksubtext">企业信用风险传导预警平台</a></div>
+
+                      </div>
+
+                      <div class="ss-col2">
+
+                        <div class="ss-col-title">信用增进</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="risk-business-general-management.html">风险业务综合管理平台</a>
+
+                          <a href="risk-business-general-management.html" class="sscollinksubtext">集业务管理与风险管理为一体</a></div>
+
+                        <div class="ss-col-link"><a href="SME-financing.html">中小微增信服务平台</a>
+
+                          <a href="SME-financing.html" class="sscollinksubtext">助贷服务、资产服务</a></div>
+
+                      </div>
+
+                      <div class="ss-col3">
+
+                        <div class="ss-col-title">信用资产交易管理服务</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="bond-evaluation-and-pricing.html">Ratingdog</a>
+
+                          <a href="bond-evaluation-and-pricing.html" class="sscollinksubtext">债券估值与定价</a></div>
+
+                        <div class="ss-col-link"><a href="trading-information.html">DealingMatrix</a>
+
+                          <a href="trading-information.html" class="sscollinksubtext">债券及同业报价</a></div>
+
+                        <div class="ss-col-link"><a href="NPls-evaluation.html">不良资产估值</a>
+
+                          <a href="NPls-evaluation.html" class="sscollinksubtext">不良资产估值辅助工具</a></div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="ss-l2"> <a class="" id="menubtn_2_2">基础服务</a> </div>
+
+                    <div class="ss-btns" id="menu_2_2" style="display: none;">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-title">数据服务</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="Daas.html">DaaS</a>
+
+                          <a href="Daas.html" class="sscollinksubtext">企业数据服务</a></div>
+
+                      </div>
+
+                      <div class="ss-col2">
+
+                        <div class="ss-col-title">功能服务</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="Baas.html">BaaS</a>
+
+                          <a href="Baas.html" class="sscollinksubtext">中证区块链基础服务</a></div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="ss-sepline"></div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class="" id="menu_solution"><a href="construction-of-internal-rating-system.html">解决方案</a>
+
+            <div class="subnav-section">
+
+              <div class="container">
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <div class="ss-sepline"></div>
+
+                    <div class="ss-l1"> <a class="active">解决方案</a> </div>
+
+                    <div class="ss-btns">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-title">证券</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-llink"><a href="construction-of-internal-rating-system.html">内部评级体系建设</a></div>
+
+                        <div class="ss-col-llink"><a href="investor-internal-evaluation.html">投资者适当性管理</a></div>
+
+                      </div>
+
+                      <div class="ss-col3">
+
+                        <div class="ss-col-title">融资担保</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-llink"><a href="management-of-financing-guarantee-business.html">融担业务综合管理</a></div>
+
+                      </div>
+
+                      <div class="ss-col4">
+
+                        <div class="ss-col-title">监管</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-llink"><a href="fund-risk-management.html">私募基金风险管理</a></div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class=""><a href="api-0.html">文档中心</a></li>
+
+          <li class="" id="menu_contact"><a href="about-us.html">关于我们</a>
+
+            <div class="subnav-section">
+
+              <div class="container">
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <div class="ss-sepline"></div>
+
+                    <div class="ss-l1"><a class="active">关于我们</a> </div>
+
+                    <div class="ss-btns">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-llink"><a href="about-us.html">了解信用云</a></div>
+
+                        <div class="ss-col-llink"><a href="contact-us.html">联系我们</a></div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+      
+
+      <div class="burger">
+
+      <div class="x"></div>
+
+      <div class="y"></div>
+
+      <div class="z"></div>
+
+      </div>
+
+      
+
+      
+
+    </div>
+
+  </div>
+
+</div><style>
+
+  
+
+  
+
+</style>
+
+<div class="top-banner">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 top-banner-content">
+
+        <div class="top-banner-title" > BaaS </div>
+
+        <div class="top-banner-desc" > 为降低信贷市场信用风险及操作性风险构建的可信金融服务基础设施，涵盖资产全生命周期（产生-流转-管理），支撑多场景多主体的金融服务，有效缓解中小微企业融资过程中的信息不透明、信息系统对接繁杂而导致的融资贵及融资难问题，协助资金方实现对资产流转的资产情况的透明化管理，提高其风险控制能力，降低金融风险。 </div>
+
+        <div class="top-banner-btn" > <a href="contact-us.html">联系我们</a> <a href="http://browser.baas.demo.chinacsci.com/login" target="_blank" class="active">体验Baas</a> </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<style>
+
+  
+
+  
+
+</style>
+
+<div class="fastNavBar">
+
+  <ul>
+
+    <li><a href="#sec1">应用场景</a></li>
+
+    <li><a href="#sec2">核心价值</a></li>
+
+    <li><a href="#sec3">功能服务</a></li>
+
+    <li><a href="#sec4">服务客户</a></li>
+
+    <li><a href="#sec5">体验使用</a></li>
+
+    <li><a href="#sec6">常见问题</a></li>
+
+  </ul>
+
+</div>
+
+<style>
+
+
+
+  
+
+</style>
+
+<div class="normal-section sec1 pc_visible" id="sec1">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-dark">
+
+          <div class="normal-section-title-t1">应用场景</div>
+
+          <div class="normal-section-title-t2">Scenarios</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <ul>
+
+          <li>
+
+            <div class="nsculli-title">资产证券化<span></span></div>
+
+            <div class="nsculli-desc">将区块链技术应用于ABS业务，打通业务流及信息流，大幅提升项目透明度和可追溯性。</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-title">金融信贷<span></span></div>
+
+            <div class="nsculli-desc">基于区块链技术搭建信贷技术方案，构建信贷业务闭环，实现底层资产穿透，资产真实、透明、可追溯。</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-title">供应链金融<span></span></div>
+
+            <div class="nsculli-desc">应收账款的确权、转让、融资全流程均实时推送上链，确保应收账款及其流转的真实性、准确性、可追溯性，有助于激活核心企业应收账款。</div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="scenarios_area" class="mobile_visible">
+
+  <div class="scen_h1_title"> <span>应用场景</span> <font>Scenarios</font> </div>
+
+  <ul>
+
+    <li>
+
+      <div class="nsculli-title">资产证券化<span></span></div>
+
+      <div class="nsculli-desc">将区块链技术应用于ABS业务，打通业务流及信息流，大幅提升项目透明度和可追溯性。</div>
+
+    </li>
+
+    <li>
+
+      <div class="nsculli-title">金融信贷<span></span></div>
+
+      <div class="nsculli-desc">基于区块链技术搭建信贷技术方案，构建信贷业务闭环，实现底层资产穿透，资产真实、透明、可追溯。</div>
+
+    </li>
+
+    <li>
+
+      <div class="nsculli-title">供应链金融<span></span></div>
+
+      <div class="nsculli-desc">应收账款的确权、转让、融资全流程均实时推送上链，确保应收账款及其流转的真实性、准确性、可追溯性，有助于激活核心企业应收账款。</div>
+
+    </li>
+
+  </ul>
+
+</div>
+
+
+
+<div class="normal-section sec2 pc_visible" id="sec2">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-light">
+
+          <div class="normal-section-title-t1">核心价值</div>
+
+          <div class="normal-section-title-t2">Value Proposition</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <ul>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/Baas/icon/2-1.png" /></div>
+
+            <div class="nsculli-title">一站式API接入<span></span></div>
+
+            <div class="nsculli-desc">只需生成或下载相应的用户秘钥，即可通过API调用方式使用区块链节点及相应服务</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/Baas/icon/2-2.png" /></div>
+
+            <div class="nsculli-title">基于混合云的轻量级运维<span></span></div>
+
+            <div class="nsculli-desc">支持On-Premise与云原生的部署方式，本地服务集群同样使用云原生的服务治理体系</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/Baas/icon/2-3.png" /></div>
+
+            <div class="nsculli-title">原生支持资产与<br>
+
+              资金管理业务逻辑<span></span></div>
+
+            <div class="nsculli-desc">资产生成、审核及流转流程无缝衔接，直接API调用完成资产的上链流转，衔接不同资金方体系</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/Baas/icon/2-4.png" /></div>
+
+            <div class="nsculli-title">金融事务性操作支持<span></span></div>
+
+            <div class="nsculli-desc">支持并发及事务管理机制，金融事务状态链上管理</div>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="value_area" class="mobile_visible">
+
+  <div class="scen_h1_title"><span>核心价值</span> <font>Value Proposition</font> </div>
+
+  <ul>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/Baas/icon/2-1.png" /></div>
+
+            <div class="nsculli-title">一站式API接入<span></span></div>
+
+            <div class="nsculli-desc">只需生成或下载相应的用户秘钥，即可通过API调用方式使用区块链节点及相应服务</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/Baas/icon/2-2.png" /></div>
+
+            <div class="nsculli-title">基于混合云的轻量级运维<span></span></div>
+
+            <div class="nsculli-desc">支持On-Premise与云原生的部署方式，本地服务集群同样使用云原生的服务治理体系</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/Baas/icon/2-3.png" /></div>
+
+            <div class="nsculli-title">原生支持资产与<br>
+
+              资金管理业务逻辑<span></span></div>
+
+            <div class="nsculli-desc">资产生成、审核及流转流程无缝衔接，直接API调用完成资产的上链流转，衔接不同资金方体系</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/Baas/icon/2-4.png" /></div>
+
+            <div class="nsculli-title">金融事务性操作支持<span></span></div>
+
+            <div class="nsculli-desc">支持并发及事务管理机制，金融事务状态链上管理</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          
+
+        </ul>
+
+</div>
+
+
+
+<div class="normal-section sec3 pc_visible" id="sec3">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-dark">
+
+          <div class="normal-section-title-t1">功能服务</div>
+
+          <div class="normal-section-title-t2">Functionality</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <ul>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/Baas/icon/3-1.png" width="100" /></div>
+
+            <div class="nsc-keyword">统一身份认证</div>
+
+            <div class="nsc-desc">统一的单点用户登录体系，支持不同业务系统使用相同用户登录BaaS平台</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/Baas/icon/3-2.png" width="100" /></div>
+
+            <div class="nsc-keyword">数据保全</div>
+
+            <div class="nsc-desc">支持数据上链保存，多方共识防篡改</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/Baas/icon/3-3.png" width="100" /></div>
+
+            <div class="nsc-keyword">数据授权</div>
+
+            <div class="nsc-desc">隐私数据基于授权机制查看，防止数据泄露</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/Baas/icon/3-4.png" width="100" /></div>
+
+            <div class="nsc-keyword">业务逻辑</div>
+
+            <div class="nsc-desc">支持资产流转业务逻辑、数据加密授权逻辑，金融基础业务功能完美支持</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/Baas/icon/3-5.png" width="100" /></div>
+
+            <div class="nsc-keyword">流程定制</div>
+
+            <div class="nsc-desc">可根据不同用户方的业务需求，定制化开发业务功能</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/Baas/icon/3-6.png" width="100" /></div>
+
+            <div class="nsc-keyword">数据私密</div>
+
+            <div class="nsc-desc">隐私数据上链关键字段支持加密机制</div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="function_area" class="mobile_visible">
+
+  <div class="scen_h1_title"><span>功能服务</span> <font>Functionality</font> </div>
+
+  <ul>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/Baas/icon/3-1.png" width="100" /></div>
+
+            <div class="nsc-keyword">统一身份认证</div>
+
+            <div class="nsc-content">
+
+              <div class="nsc-desc">统一的单点用户登录体系，支持不同业务系统使用相同用户登录BaaS平台</div>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/Baas/icon/3-2.png" width="100" /></div>
+
+            <div class="nsc-keyword">数据保全</div>
+
+            <div class="nsc-content">
+
+              <div class="nsc-desc">支持数据上链保存，多方共识防篡改</div>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/Baas/icon/3-3.png" width="100" /></div>
+
+            <div class="nsc-keyword">数据授权</div>
+
+            <div class="nsc-content">
+
+              <div class="nsc-desc">隐私数据基于授权机制查看，防止数据泄露</div>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/Baas/icon/3-4.png" width="100" /></div>
+
+            <div class="nsc-keyword">业务逻辑</div>
+
+            <div class="nsc-content">
+
+              <div class="nsc-desc">支持资产流转业务逻辑、数据加密授权逻辑，金融基础业务功能完美支持</div>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/Baas/icon/3-5.png" width="100" /></div>
+
+            <div class="nsc-keyword">流程定制</div>
+
+            <div class="nsc-content">
+
+              <div class="nsc-desc">可根据不同用户方的业务需求，定制化开发业务功能</div>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/Baas/icon/3-6.png" width="100" /></div>
+
+            <div class="nsc-keyword">数据私密</div>
+
+            <div class="nsc-content">
+
+              <div class="nsc-desc">隐私数据上链关键字段支持加密机制</div>
+
+            </div>
+
+          </li>
+
+        </ul>
+
+</div>
+
+
+
+<div class="normal-section sec4 pc_visible" id="sec4">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-light">
+
+          <div class="normal-section-title-t1">服务客户</div>
+
+          <div class="normal-section-title-t2">Success Stories</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <div class="nsc-comingsoon"><img src="imgs/Baas/pc/fsklogo.png" width="100%"></div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<div id="trial_area" class="mobile_visible Success">
+
+  <div class="scen_h1_title"><span>服务客户</span><font>Success Stories</font></div>
+
+  <div class="nscfr" style="text-align:center">
+
+  <img src="imgs/Baas/pc/fsklogo.png" style="max-width:auto; margin:0 auto; width:auto; height:auto" width="264" height="50">
+
+  </div>
+
+</div>
+
+
+
+<div class="normal-section sec5 pc_visible" id="sec5">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-dark">
+
+          <div class="normal-section-title-t1">体验使用</div>
+
+          <div class="normal-section-title-t2">Trial</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <div class="nscfl">
+
+          <div class="nscfl-title"> </div>
+
+          <div class="nscfl-desc"> 资产流转和检索均构建于BaaS上，实现资产全生命周期的追踪。可通过访问区块链浏览器对资产上链进行直观体验，如需试用账号可邮件联系我们<a href="CSCIcloud@chinacsci.com">CSCIcloud@chinacsci.com</a>。 </div>
+
+          <div class="nscfl-btn"> <a href="http://browser.baas.demo.chinacsci.com/login" target="_blank">体验Baas</a> </div>
+
+        </div>
+
+        <div class="nscfr"><img src="imgs/ExperiencePics/qukuailian.jpg" /></div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="trial_area" class="mobile_visible">
+
+  <div class="scen_h1_title"><span>体验使用</span><font>Trial</font></div>
+
+  <div class="nscfl-title" style="text-align: center;"> 资产流转和检索均构建于BaaS上，实现资产全生命周期的追踪。可通过访问区块链浏览器对资产上链进行直观体验，如需试用账号可邮件联系我们<a href="CSCIcloud@chinacsci.com">CSCIcloud@chinacsci.com</a>。  </div>
+
+  
+
+  <div class="nscfl-btn"><a href="http://browser.baas.demo.chinacsci.com/login" target="_blank">体验Baas</a> </div>
+
+  <div class="nscfr"><img src="imgs/ExperiencePics/qukuailian.jpg" /></div>
+
+</div>
+
+
+
+<div class="normal-section sec6" id="sec6">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-light">
+
+          <div class="normal-section-title-t1">常见问题</div>
+
+          <div class="normal-section-title-t2">FAQs</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <div class="nsc-fl">
+
+          <div class="nsc-title">Q1：如何将区块链技术应用于实际业务之中？</div>
+
+          <div class="nsc-desc">A：中证区块链团队不仅提供区块链服务平台，也提供一站式的区块链业务解决方案。中证的区块链专家在供应链金融、防伪溯源、合同存证等许多垂直业务领域为客户 提供了基于区块链的业务解决方案，积累了丰富的经验，也获取每位客户的好评。不管您有业务上的任何问题，欢迎电子邮件联系CSCIcloud@chinacsci.com。 <br>
+
+            我们的专家会和您主动联系，根据您的需求提供相应的服务，帮助您的业务尽快落地。</div>
+
+        </div>
+
+        <div class="nsc-fr">
+
+          <div class="nsc-title">Q2：如何快速了解中证区块链云服务平台的功能和使用方法？ </div>
+
+          <div class="nsc-desc">A：中证区块链服务平台提供了非常详细的平台功能介绍和用户指南等相关文档。如有需要，欢迎电子邮件联系CSCIcloud@chinacsci.com</div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="clear"></div>
+
+<div id="footer" class="footer">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 footer-content">
+
+        <ul class="footer-content-ul">
+
+          <li>
+
+            <div class="footer-menu-item" style="float: left;">
+
+            <a class="footer-menu-blink" href="">关于我们</a>
+
+            <p>
+
+            <a class="footer-menu-slink" href="aboutus.html">了解信用云</a> 
+
+            <a class="footer-menu-slink" href="contactus.html">联系我们</a>
+
+            </p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item" style="margin: 0 auto;">
+
+            <a class="footer-menu-blink" href="">产品及服务</a>
+
+            <p>
+
+            <a class="footer-menu-slink" href="internal-credit-rating.html">债乎 CreditMaster</a>
+
+            <a class="footer-menu-slink" href="risk-monitor-and-warning.html">中证预鉴 CreditPortal</a> <a class="footer-menu-slink" href="trading-information.html">DealingMatrix</a>
+
+            </p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item" style="margin: 0 auto;"> <a class="footer-menu-blink" href="">解决方案</a>
+
+            <p><a class="footer-menu-slink" href="construction-of-internal-rating-system.html">券商内部评级体系建设</a> <a class="footer-menu-slink" href="management-of-financing-guarantee-business.html">融担业务综合管理</a> 
+
+            <a class="footer-menu-slink" href="investor-internal-evaluation.html">投资者适当性管理</a>
+
+            </p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item" style="margin: 0 auto;"> <a class="footer-menu-blink" href="">资源中心</a> 
+
+            <p><a class="footer-menu-slink" href="api-0.html">文档中心</a></p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item"> <a class="footer-menu-blink" href="">相关链接</a>
+
+            <p><a class="footer-menu-slink" href="https://www.chinacsci.com/zh_chs/">中证信用官网</a> <a class="footer-menu-slink" href="https://www.xinyongyun.com/">中证信用云官网</a>
+
+             <a class="footer-menu-slink" href="http://www.cspengyuan.com/zh-cn/index">中证鹏元官网</a>
+
+             </p>
+
+             </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 footer-bottom">
+
+        <div class="footer-bottom-wrapper">
+
+          <div class="footer-bottom-left"></div>
+
+          <div class="footer-bottom-right">Copyright&copy;2015-2019  中证信用增进股份有限公司<span class="br"></span>  版权所有 <a href="http://www.beian.miit.gov.cn">粤ICP备15058755号-1</a></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="btnrb"><a class="btnrb-contactus" href="contactus.html"> 联<br>
+
+  系<br>
+
+  我<br>
+
+  们 </a>
+
+  <div class="btnrb-gototop"> <img src="imgs/index/tarrow.png" width="100%;"></div>
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+
+isapi = 0;</script>
+
+<script src="js/public.js"></script>
+
+<script src="js/menu.js"></script><script src="js/product.js"></script>
+
+</body>
+
+</html>

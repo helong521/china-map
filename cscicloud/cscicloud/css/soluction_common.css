@@ -1,0 +1,81 @@
+/* CSS Document */
+.pc_visible{ display:block}
+.mobile_visible{ display:none}
+@media (max-width: 1080px) {
+.pc_visible{ display:none}
+.mobile_visible{ display:block}
+/**/	
+.top-banner{ height:auto; padding:40px 20px;}	
+.top-banner .container{ width:100%}
+.top-banner-content{ height:auto; padding:0}
+.top-banner-title{ width:100%;margin:0; padding:0; text-align:center; margin-top:50px;font-size:28px; line-height:40px; height:auto}
+.top-banner-desc{ width:100%; margin:25px 0; padding:0; text-align:center; height:auto}
+.top-banner-btn{ width:100%; margin-top:0}
+.top-banner-btn a{ width:100%; margin:10px 0}
+.fastNavBar{ display:none}
+.top-banner-title{ height:auto}
+/**/
+.risk-banner{ height:auto; padding:40px 20px;}	
+.risk-banner .container{ width:100%}
+.risk-banner-content{ height:auto; padding:0}
+.risk-banner-title{ width:100%;margin:0; padding:0; text-align:center; margin-top:50px;font-size:28px; line-height:40px; height:auto}
+.risk-banner-desc{ width:100%; margin:25px 0; padding:0; text-align:center; height:auto}
+.risk-banner-btn{ width:100%; margin-top:0}
+.risk-banner-btn a{ width:100%; margin:10px 0}
+.fastNavBar{ display:none}
+.risk-banner-title{ height:auto}
+.risk-banner-desc{ height:auto}
+.risk-banner-content{ height:auto}
+/**/
+.investor-banner{ height:auto; padding:40px 20px;}	
+.investor-banner .container{ width:100%}
+.investor-banner-content{ height:auto; padding:0}
+.investor-banner-title{ width:100%;margin:0; padding:0; text-align:center; margin-top:50px;font-size:28px; line-height:40px; height:auto}
+.investor-banner-desc{ width:100%; margin:25px 0; padding:0; text-align:center; height:auto}
+.investor-banner-btn{ width:100%; margin-top:0}
+.investor-banner-btn a{ width:100%; margin:10px 0}
+.fastNavBar{ display:none}
+.investor-banner-title{ height:auto}
+.investor-banner-desc{ height:auto}
+.investor-banner-content{ height:auto}
+}
+
+@media (max-width: 1080px) {
+.scen_h1_title { margin-bottom:50px;}
+.scen_h1_title span { height: 45px; margin: 0 auto; font-size: 26px; line-height: 45px; text-align: center; display:block; color:#242728 }
+.scen_h1_title font { display:block; height: 18px; margin: 0 auto; font-size: 12px; line-height: 18px; text-align: center; color:#5F696D}
+.scen_h1_title span:before{ width:20%; margin-right:25px; height:1px; display:inline-block; content:""; background:#999; vertical-align:middle}
+.scen_h1_title span:after{ width:20%; margin-left:25px; height:1px; display:inline-block; content:""; background:#999; vertical-align:middle}	
+/***********/
+#value_area ul,#value_area li{ list-style:none; margin:0; padding:0;}
+#value_area{padding:100px 20px; padding-bottom:60px;background:#f8f8f8; background-size:auto 100%}
+#value_area span,#value_area font{ color:#232728}
+#value_area font{ color:#808589}
+#value_area .scen_h1_title span:before,#value_area .scen_h1_title span:after{ background:#999}
+#value_area li{position:relative; padding:0 0px; padding-top:15px; border-bottom:1px solid #D8D8D8; padding-bottom:25px;}
+#value_area li .nsculli-icon{ position:absolute; left:0px;top:15px}
+#value_area li .nsculli-icon img{ width:50px; height:50px;}
+#value_area li .nsculli-title{font-size: 18px;color: #181818;letter-spacing: 0;line-height: 28px; padding:0px 25px; padding-right:40px; padding-left:65px; padding-top:10px; position:relative}
+#value_area li .nsculli-title:after{ content:""; display:block; position:absolute; right:0px; top:20px; background-image:url(../imgs/product_service/jia.png); background-repeat:no-repeat; background-position:center center; width:14px;  height:14px; background-size:100% auto}
+#value_area li .nsculli-title.on:after{background-image:url(../imgs/product_service/jiaj.png);}
+#value_area li .nsculli-desc{ display:none;font-size: 14px;color: #5F696D;letter-spacing: 0;text-align: justify;line-height: 22px; padding:20px 0px; padding-bottom:0}	
+/****/
+#function_area .scen_h1_title{ margin-bottom:50px;}
+#function_area{ background:#fff; padding:100px 20px; padding-bottom:60px;}
+#function_area ul,#function_area li{ list-style:none; margin:0; padding:0;}
+#function_area li{ position:relative; padding-bottom:25px; border-bottom:1px solid #D8D8D8;}
+#function_area li .nsc-icon{ position:absolute; left:0; top:10px}
+#function_area li img{ width:50px; height:50px;}
+#function_area li .nsc-keyword{font-size: 18px;color: #242728;letter-spacing: 0; padding-left:70px;line-height: 28px; padding-top:18px; position:relative}
+#function_area li .nsc-keyword:after{ content:""; width:14px; height:14px; background:url(../imgs/product_service/jia.png) no-repeat; background-size:100% auto; display:block; position:absolute; right:10px; top:30px;}
+#function_area li .nsc-keyword.on:after{ background-image:url(../imgs/product_service/jiaj.png)}
+#function_area li .nsc-title{ font-weight:bold;color: #242728; line-height:22px; font-size:14px; padding-top:15px;}
+#function_area li .nsc-desc{font-size: 14px;color: #656E72; line-height:22px;}
+.nsc-content{ display:none; padding-top:15px;}	
+/***/
+#Contents_area{ background:#f8f8ff; padding:100px 20px; padding-bottom:60px; font-size:14px; line-height:22px;}
+#Contents_area .nscfr{ padding:25px 0}
+#Contents_area .nscfr img{ display:block; width:100%; height:auto}
+.normal-section-title-t1{ font-size:28px;}
+
+}

@@ -1,0 +1,1394 @@
+
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Ratingdog - CSCI信用云</title>
+
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+
+<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+
+<link rel="stylesheet" href="css/swiper.min.css">
+
+<link rel="stylesheet" href="css/common.css">
+
+<link rel="stylesheet" type="text/css" href="css/bond-evaluation-and-pricing.css">
+
+<link rel="stylesheet" type="text/css" href="css/product_common.css">
+
+<style>
+
+#scenarios_area{ background:#fff url(imgs/product_service/banner2.jpg) no-repeat; background-size:100% auto}
+
+@media (max-width: 1080px) {
+
+.top-banner{background:url(imgs/product_service/banner1.jpg); background-size:cover}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- 头部style -->
+
+<div id="header" class="container-fluid ">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-2">
+
+      <img id="logo_w" class="gotohome" src="imgs/logo_400x120_w.png?t=1576435826" height="60">
+
+      <img id="logo_b" class="gotohome" src="imgs/logo_400x120_b.png?t=1576435826" height="60">
+
+      </div>
+
+      <div class="col-md-10">
+
+        <i class="mobilemmenuclose"></i>
+
+        <ul class="cscinav">
+
+          <li class=""><a href="index.html">首页</a></li>
+
+          <li class="hover"><a href="internal-credi-rating.html">产品及服务</a>
+
+            <div class="subnav-section">
+
+              <div class="container">
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <div class="ss-l1"> <a class="active" id="menubtn_2_1">信用服务</a> </div>
+
+                    <div class="ss-btns" id="menu_2_1">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-title">信用风险管理</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="internal-credit-rating.html">债乎 CreditMaster</a>
+
+                          <a href="internal-credit-rating.html" class="sscollinksubtext">债券信用风险一站式管理</a></div>
+
+                        <div class="ss-col-link"><a href="data-risk-control.html">云瞻</a>
+
+                          <a href="data-risk-control.html" class="sscollinksubtext">消费金融数据风控</a></div>
+
+                        <div class="ss-col-link"><a href="risk-monitor-and-warning.html">中证预鉴 CreditPortal</a>
+
+                          <a href="risk-monitor-and-warning.html" class="sscollinksubtext">企业信用风险传导预警平台</a></div>
+
+                      </div>
+
+                      <div class="ss-col2">
+
+                        <div class="ss-col-title">信用增进</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="risk-business-general-management.html">风险业务综合管理平台</a>
+
+                          <a href="risk-business-general-management.html" class="sscollinksubtext">集业务管理与风险管理为一体</a></div>
+
+                        <div class="ss-col-link"><a href="SME-financing.html">中小微增信服务平台</a>
+
+                          <a href="SME-financing.html" class="sscollinksubtext">助贷服务、资产服务</a></div>
+
+                      </div>
+
+                      <div class="ss-col3">
+
+                        <div class="ss-col-title">信用资产交易管理服务</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="bond-evaluation-and-pricing.html">Ratingdog</a>
+
+                          <a href="bond-evaluation-and-pricing.html" class="sscollinksubtext">债券估值与定价</a></div>
+
+                        <div class="ss-col-link"><a href="trading-information.html">DealingMatrix</a>
+
+                          <a href="trading-information.html" class="sscollinksubtext">债券及同业报价</a></div>
+
+                        <div class="ss-col-link"><a href="NPls-evaluation.html">不良资产估值</a>
+
+                          <a href="NPls-evaluation.html" class="sscollinksubtext">不良资产估值辅助工具</a></div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="ss-l2"> <a class="" id="menubtn_2_2">基础服务</a> </div>
+
+                    <div class="ss-btns" id="menu_2_2" style="display: none;">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-title">数据服务</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="Daas.html">DaaS</a>
+
+                          <a href="Daas.html" class="sscollinksubtext">企业数据服务</a></div>
+
+                      </div>
+
+                      <div class="ss-col2">
+
+                        <div class="ss-col-title">功能服务</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-link"><a href="Baas.html">BaaS</a>
+
+                          <a href="Baas.html" class="sscollinksubtext">中证区块链基础服务</a></div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="ss-sepline"></div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class="" id="menu_solution"><a href="construction-of-internal-rating-system.html">解决方案</a>
+
+            <div class="subnav-section">
+
+              <div class="container">
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <div class="ss-sepline"></div>
+
+                    <div class="ss-l1"> <a class="active">解决方案</a> </div>
+
+                    <div class="ss-btns">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-title">证券</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-llink"><a href="construction-of-internal-rating-system.html">内部评级体系建设</a></div>
+
+                        <div class="ss-col-llink"><a href="investor-internal-evaluation.html">投资者适当性管理</a></div>
+
+                      </div>
+
+                      <div class="ss-col3">
+
+                        <div class="ss-col-title">融资担保</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-llink"><a href="management-of-financing-guarantee-business.html">融担业务综合管理</a></div>
+
+                      </div>
+
+                      <div class="ss-col4">
+
+                        <div class="ss-col-title">监管</div>
+
+                        <div class="ss-col-sepline"></div>
+
+                        <div class="ss-col-llink"><a href="fund-risk-management.html">私募基金风险管理</a></div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class=""><a href="api-0.html">文档中心</a></li>
+
+          <li class="" id="menu_contact"><a href="aboutus.html">关于我们</a>
+
+            <div class="subnav-section">
+
+              <div class="container">
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <div class="ss-sepline"></div>
+
+                    <div class="ss-l1"><a class="active">关于我们</a> </div>
+
+                    <div class="ss-btns">
+
+                      <div class="ss-col1">
+
+                        <div class="ss-col-llink"><a href="about-us.html">了解信用云</a></div>
+
+                        <div class="ss-col-llink"><a href="contact-us.html">联系我们</a></div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+      
+
+      <div class="burger">
+
+      <div class="x"></div>
+
+      <div class="y"></div>
+
+      <div class="z"></div>
+
+      </div>
+
+      
+
+      
+
+    </div>
+
+  </div>
+
+</div><div class="top-banner">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 top-banner-content">
+
+        <div class="top-banner-title" > Ratingdog </div>
+
+        <div class="top-banner-desc" > Ratingdog以买方视角为固定收益投资者提供全方位信用投研服务，每日对当天一级发行的所有公募信用债发布信评定价报告，现已完成全市场公募发债主体全覆盖，并建立自有估值曲线和全市场存量信用债的估值。 </div>
+
+        <div class="top-banner-btn" > <a href="contact-us.html">联系我们</a> <a href="https://www.ratingdog.cn/#/home" class="active">体验Ratingdog</a> </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="fastNavBar">
+
+  <ul>
+
+    <li><a href="#sec1">应用场景</a></li>
+
+    <li><a href="#sec2">核心价值</a></li>
+
+    <li><a href="#sec3">功能服务</a></li>
+
+    <li><a href="#sec4">服务客户</a></li>
+
+    <li><a href="#sec5">体验使用</a></li>
+
+    <li><a href="#sec6">常见问题</a></li>
+
+  </ul>
+
+</div>
+
+
+
+<!------sec1-------> 
+
+<!---pc--->
+
+<div class="normal-section sec1 pc_visible" id="sec1">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-dark">
+
+          <div class="normal-section-title-t1">应用场景</div>
+
+          <div class="normal-section-title-t2">Scenarios</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <ul>
+
+          <li>
+
+            <div class="nsculli-title">为机构投资者提供信用债投前、投中、投后全流程的咨询服务<span></span></div>
+
+            <div class="nsculli-desc">为各类投资者提供专业的内部评级、风险管理、估值与定价等咨询服务，并提供研究支持、数据支持、模型建设支持和系统开发支持，辅助机构投资者投资、风控和信评等业务条线完善工作</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-title">助力机构投资者提升投研水平<span></span></div>
+
+            <div class="nsculli-desc">利用Ratingdog团队丰富的投研经验和各类资源帮助投资者去重塑内部的信评体系、投研流程，通过Ratingdog提供工具帮助机构投资者提高投研工作的科技水平，如更加高效的舆情监测、市场跟踪、组合管理、信评系统等</div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!---mobile--->
+
+<div id="scenarios_area" class="mobile_visible">
+
+  <div class="scen_h1_title"> <span>应用场景</span> <font>Scenarios</font> </div>
+
+  <ul>
+
+    <li>
+
+      <div class="nsculli-title">为机构投资者提供信用债投前、投中、投后全流程的咨询服务<span></span></div>
+
+      <div class="nsculli-desc">为各类投资者提供专业的内部评级、风险管理、估值与定价等咨询服务，并提供研究支持、数据支持、模型建设支持和系统开发支持，辅助机构投资者投资、风控和信评等业务条线完善工作</div>
+
+    </li>
+
+    <li>
+
+      <div class="nsculli-title">助力机构投资者提升投研水平<span></span></div>
+
+      <div class="nsculli-desc">利用Ratingdog团队丰富的投研经验和各类资源帮助投资者去重塑内部的信评体系、投研流程，通过Ratingdog提供工具帮助机构投资者提高投研工作的科技水平，如更加高效的舆情监测、市场跟踪、组合管理、信评系统等</div>
+
+    </li>
+
+  </ul>
+
+</div>
+
+
+
+
+
+<!------sec1-------> 
+
+<!---pc--->
+
+<div class="normal-section sec2 pc_visible" id="sec2">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-light">
+
+          <div class="normal-section-title-t1">核心价值</div>
+
+          <div class="normal-section-title-t2">Value Proposition</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <ul>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/bondEvaluationAndPricing/pc/2/icon/1.png" /></div>
+
+            <div class="nsculli-title">信评的独立性和可验证性<span></span></div>
+
+            <div class="nsculli-desc">以服务投资者为宗旨，客户利益与自身利益高度一致。自建估值曲线和个券估值体系并在市场的不断反馈与验证中完善，使信评结果和市场高度一致，便于投资快速使用</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/bondEvaluationAndPricing/pc/2/icon/2.png" /></div>
+
+            <div class="nsculli-title">研究全市场覆盖<span></span></div>
+
+            <div class="nsculli-desc">实现对全市场4000余发债主体的研究覆盖，评级结果和定价参考两年来公开发布，受到市场各大债券投资活跃机构的广泛使用和持续验证</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/bondEvaluationAndPricing/pc/2/icon/3.png" /></div>
+
+            <div class="nsculli-title">复合的团队背景<span></span></div>
+
+            <div class="nsculli-desc">Ratingdog团队兼具评级和买方实操经验，买方机构涵盖各大机构类型，包括公募基金、券商、银行、保险等，投资类型和投资范围基本覆盖全市场公开信用债，使团队能够拥有丰富的投研经验与多元化的投研视角，可以多角度审视客户需求，提供满足不同类型投资机构需求的服务与产品</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/bondEvaluationAndPricing/pc/2/icon/4.png" /></div>
+
+            <div class="nsculli-title">融合经验与科技<span></span></div>
+
+            <div class="nsculli-desc">将主观经验模型化、标准化，并通过科技手段不断提高信息获取和解读能力</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/bondEvaluationAndPricing/pc/2/icon/5.png" /></div>
+
+            <div class="nsculli-title">多元化资源整合能力<span></span></div>
+
+            <div class="nsculli-desc">广泛的机构投资者人脉，还与各债券一级承销机构、评级机构、数据库公司及第三方科技公司建立各类合作关系，使得团队对市场、行业的理解始终保持领先水平，并能够整合资源为客户提供多元化的服务</div>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="value_area" class="mobile_visible">
+
+  <div class="scen_h1_title"><span>核心价值</span> <font>Value Proposition</font> </div>
+
+  <ul>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/bondEvaluationAndPricing/pc/2/icon/1.png" /></div>
+
+            <div class="nsculli-title">信评的独立性和可验证性<span></span></div>
+
+            <div class="nsculli-desc">以服务投资者为宗旨，客户利益与自身利益高度一致。自建估值曲线和个券估值体系并在市场的不断反馈与验证中完善，使信评结果和市场高度一致，便于投资快速使用</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/bondEvaluationAndPricing/pc/2/icon/2.png" /></div>
+
+            <div class="nsculli-title">研究全市场覆盖<span></span></div>
+
+            <div class="nsculli-desc">实现对全市场4000余发债主体的研究覆盖，评级结果和定价参考两年来公开发布，受到市场各大债券投资活跃机构的广泛使用和持续验证</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/bondEvaluationAndPricing/pc/2/icon/3.png" /></div>
+
+            <div class="nsculli-title">复合的团队背景<span></span></div>
+
+            <div class="nsculli-desc">Ratingdog团队兼具评级和买方实操经验，买方机构涵盖各大机构类型，包括公募基金、券商、银行、保险等，投资类型和投资范围基本覆盖全市场公开信用债，使团队能够拥有丰富的投研经验与多元化的投研视角，可以多角度审视客户需求，提供满足不同类型投资机构需求的服务与产品</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/bondEvaluationAndPricing/pc/2/icon/4.png" /></div>
+
+            <div class="nsculli-title">融合经验与科技<span></span></div>
+
+            <div class="nsculli-desc">将主观经验模型化、标准化，并通过科技手段不断提高信息获取和解读能力</div>
+
+            <span></span>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+          <li>
+
+            <div class="nsculli-icon"><img src="imgs/bondEvaluationAndPricing/pc/2/icon/5.png" /></div>
+
+            <div class="nsculli-title">多元化资源整合能力<span></span></div>
+
+            <div class="nsculli-desc">广泛的机构投资者人脉，还与各债券一级承销机构、评级机构、数据库公司及第三方科技公司建立各类合作关系，使得团队对市场、行业的理解始终保持领先水平，并能够整合资源为客户提供多元化的服务</div>
+
+            <div class="hiddenshadow"></div>
+
+          </li>
+
+        </ul>
+
+</div>
+
+
+
+<!------sec3------>
+
+<!---pc--->
+
+<div class="normal-section sec3 pc_visible" id="sec3">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-dark">
+
+          <div class="normal-section-title-t1">功能服务</div>
+
+          <div class="normal-section-title-t2">Functionality</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <ul>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/bondEvaluationAndPricing/pc/3/1.png" width="100" /></div>
+
+            <div class="nsc-keyword">研究</div>
+
+            <div class="nsc-title">公司研究</div>
+
+            <div class="nsc-desc">对所有发债主体，提供行业分类、点评、简评报告、深度报告等</div>
+
+            <div class="nsc-title">行业研究</div>
+
+            <div class="nsc-desc">行业信评模型、行业基本面动态、行业隐形评级等</div>
+
+            <div class="nsc-title">市场研究</div>
+
+            <div class="nsc-desc">新债日评、二级成交分析、月度市场回顾、年度策略展望等</div>
+
+            <div class="nsc-title">市场预警</div>
+
+            <div class="nsc-desc">市场价格预警、隐含评级变动预警</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/bondEvaluationAndPricing/pc/3/2.png" width="100" /></div>
+
+            <div class="nsc-keyword">数据</div>
+
+            <div class="nsc-title">估值/曲线/指数</div>
+
+            <div class="nsc-desc">提供全覆盖的公募债券估值、垃圾债估值、YY指数等</div>
+
+            <div class="nsc-title">发行/成交</div>
+
+            <div class="nsc-desc">一级发行、二级成交数据</div>
+
+            <div class="nsc-title">城投数据</div>
+
+            <div class="nsc-desc">省、市、县（区）开发区（高新区）四级发债区域经济、财政、负债率数据</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/bondEvaluationAndPricing/pc/3/3.png" width="100" /></div>
+
+            <div class="nsc-keyword">系统</div>
+
+            <div class="nsc-title">标准化系统</div>
+
+            <div class="nsc-desc">包括流程管理、报告生产、模型打分、个券定价/估值、预警监测等</div>
+
+            <div class="nsc-title">个性化模块</div>
+
+            <div class="nsc-desc">根据客户需求，个性化提供系统子模块</div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/bondEvaluationAndPricing/pc/3/4.png" width="100" /></div>
+
+            <div class="nsc-keyword">咨询</div>
+
+            <div class="nsc-title">可投库搭建</div>
+
+            <div class="nsc-desc">根据收益目标、资金属性、投资限制等，定制投资规则和可投债券库</div>
+
+            <div class="nsc-title">持仓预警/点评</div>
+
+            <div class="nsc-desc">针对债券持仓，实时提供各类预警、点评等</div>
+
+            <div class="nsc-title">模型咨询</div>
+
+            <div class="nsc-desc">信评、估值、定价、行业利差、曲线、指数构建等</div>
+
+            <div class="nsc-title">系统咨询</div>
+
+            <div class="nsc-desc">系统搭建、实施以及迭代方案</div>
+
+            <div class="nsc-title">培训服务</div>
+
+            <div class="nsc-desc">基础知识、投研实践、信用策略等</div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="function_area" class="mobile_visible">
+
+  <div class="scen_h1_title"><span>功能服务</span> <font>Functionality</font> </div>
+
+  <ul>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/bondEvaluationAndPricing/pc/3/1.png" width="100" /></div>
+
+            <div class="nsc-keyword">研究</div>
+
+            <div class="nsc-content">
+
+            <div class="nsc-title">公司研究</div>
+
+            <div class="nsc-desc">对所有发债主体，提供行业分类、点评、简评报告、深度报告等</div>
+
+            <div class="nsc-title">行业研究</div>
+
+            <div class="nsc-desc">行业信评模型、行业基本面动态、行业隐形评级等</div>
+
+            <div class="nsc-title">市场研究</div>
+
+            <div class="nsc-desc">新债日评、二级成交分析、月度市场回顾、年度策略展望等</div>
+
+            <div class="nsc-title">市场预警</div>
+
+            <div class="nsc-desc">市场价格预警、隐含评级变动预警</div>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/bondEvaluationAndPricing/pc/3/2.png" width="100" /></div>
+
+            <div class="nsc-keyword">数据</div>
+
+            <div class="nsc-content">
+
+            <div class="nsc-title">估值/曲线/指数</div>
+
+            <div class="nsc-desc">提供全覆盖的公募债券估值、垃圾债估值、YY指数等</div>
+
+            <div class="nsc-title">发行/成交</div>
+
+            <div class="nsc-desc">一级发行、二级成交数据</div>
+
+            <div class="nsc-title">城投数据</div>
+
+            <div class="nsc-desc">省、市、县（区）开发区（高新区）四级发债区域经济、财政、负债率数据</div>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/bondEvaluationAndPricing/pc/3/3.png" width="100" /></div>
+
+            <div class="nsc-keyword">系统</div>
+
+            <div class="nsc-content">
+
+            <div class="nsc-title">标准化系统</div>
+
+            <div class="nsc-desc">包括流程管理、报告生产、模型打分、个券定价/估值、预警监测等</div>
+
+            <div class="nsc-title">个性化模块</div>
+
+            <div class="nsc-desc">根据客户需求，个性化提供系统子模块</div>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="nsc-icon"><img src="imgs/bondEvaluationAndPricing/pc/3/4.png" width="100" /></div>
+
+            <div class="nsc-keyword">咨询</div>
+
+            <div class="nsc-content">
+
+            <div class="nsc-title">可投库搭建</div>
+
+            <div class="nsc-desc">根据收益目标、资金属性、投资限制等，定制投资规则和可投债券库</div>
+
+            <div class="nsc-title">持仓预警/点评</div>
+
+            <div class="nsc-desc">针对债券持仓，实时提供各类预警、点评等</div>
+
+            <div class="nsc-title">模型咨询</div>
+
+            <div class="nsc-desc">信评、估值、定价、行业利差、曲线、指数构建等</div>
+
+            <div class="nsc-title">系统咨询</div>
+
+            <div class="nsc-desc">系统搭建、实施以及迭代方案</div>
+
+            <div class="nsc-title">培训服务</div>
+
+            <div class="nsc-desc">基础知识、投研实践、信用策略等</div>
+
+            </div>
+
+          </li>
+
+        </ul>
+
+</div>
+
+  
+
+<!---sec4---> 
+
+<!---pc--->  
+
+<div class="normal-section sec4 pc_visible" id="sec4">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-light">
+
+          <div class="normal-section-title-t1">服务客户</div>
+
+          <div class="normal-section-title-t2">Success Stories</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <div class="nscfl beapleftmenu">
+
+          <ul>
+
+            <li class="active" curnum="1">
+
+              <div class="nscfl-text">某银行</div>
+
+              <span class="bg1"></span> <span class="bg2"></span> </li>
+
+            <li curnum="2">
+
+              <div class="nscfl-text">某基金</div>
+
+              <span class="bg1"></span> <span class="bg2"></span> </li>
+
+            <li curnum="3">
+
+              <div class="nscfl-text">某保险资管</div>
+
+              <span class="bg1"></span> <span class="bg2"></span> </li>
+
+            <li curnum="4">
+
+              <div class="nscfl-text">某大型券商</div>
+
+              <span class="bg1"></span> <span class="bg2"></span> </li>
+
+          </ul>
+
+        </div>
+
+        <div class="nscfr">
+
+          <div class="divcontent">
+
+            <div class="nscfrdesc beapcontent" id="beapcontent1">
+
+              <div class="nscfrdesc-t1">服务内容</div>
+
+              <div class="nscfrdesc-t2">根据该客户的具体风险要求，明确搭建规则和要素，搭建符合该客户需求的可投库，协助该客户从投前端做好信用风险管理。</div>
+
+            </div>
+
+            <div class="nscfrdesc beapcontent" id="beapcontent2" style="display: none;">
+
+              <div class="nscfrdesc-t1">服务内容</div>
+
+              <div class="nscfrdesc-t2">针对该客户投资过程中具体债项或主体，提供主体评价报告或风险点评报告。协助该客户实时深入了解投资标的的信用风险和估值风险，更好做出投资决策。</div>
+
+            </div>
+
+            <div class="nscfrdesc beapcontent" id="beapcontent3" style="display: none;">
+
+              <div class="nscfrdesc-t1">服务内容</div>
+
+              <div class="nscfrdesc-t2">针对全市场存续及新发信用债提供Ratingdog研究支持数据库，并将全量数据与该客户内部投资管理系统进行对接，为该客户的内评流程和投资决策提供第三方意见参考。</div>
+
+            </div>
+
+            <div class="nscfrdesc beapcontent" id="beapcontent4" style="display: none;">
+
+              <div class="nscfrdesc-t1">服务内容</div>
+
+              <div class="nscfrdesc-t2">针对该客户明确提出的高收益债相关投资需求，为其提供市场上部分投资标的分析，作为投资参考。</div>
+
+            </div>
+
+          </div>
+
+          <div class="divbg"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="stories_area" class="mobile_visible">
+
+  <div class="scen_h1_title"><span>服务客户</span> <font>Success Stories</font> </div>
+
+  <ul>
+
+  <li>
+
+  <label>某银行</label>
+
+  <div class="stories_next">
+
+  <div class="stories_title">服务内容</div>
+
+  <div class="stories_p">根据该客户的具体风险要求，明确搭建规则和要素，搭建符合该客户需求的可投库，协助该客户从投前端做好信用风险管理。</div>
+
+  </div>
+
+  </li>
+
+    <li>
+
+  <label>某基金</label>
+
+  <div class="stories_next">
+
+  <div class="stories_title">服务内容</div>
+
+  <div class="stories_p">针对该客户投资过程中具体债项或主体，提供主体评价报告或风险点评报告。协助该客户实时深入了解投资标的的信用风险和估值风险，更好做出投资决策。</div>
+
+  </div>
+
+  </li>
+
+    <li>
+
+  <label>某保险资管</label>
+
+  <div class="stories_next">
+
+  <div class="stories_title">服务内容</div>
+
+  <div class="stories_p">针对全市场存续及新发信用债提供Ratingdog研究支持数据库，并将全量数据与该客户内部投资管理系统进行对接，为该客户的内评流程和投资决策提供第三方意见参考。</div>
+
+  </div>
+
+  </li>
+
+    <li>
+
+<label>某大型券商</label>
+
+<div class="stories_next">
+
+<div class="stories_title">服务内容</div>
+
+<div class="stories_p">针对该客户明确提出的高收益债相关投资需求，为其提供市场上部分投资标的分析，作为投资参考。</div>
+
+</div>
+
+  </li>
+
+  
+
+  </ul>
+
+</div> 
+
+
+
+<!---sec5--->
+
+<!---pc--->
+
+<div class="normal-section sec5 pc_visible" id="sec5">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-dark">
+
+          <div class="normal-section-title-t1">体验使用</div>
+
+          <div class="normal-section-title-t2">Trial</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <div class="nscfl">
+
+          <div class="nscfl-title"> Ratingdog为固定收益投资者提供全方位信用投研服务包括： </div>
+
+          <div class="nscfl-desc">
+
+            <ul class="ivan" style="list-style:disc;padding-left: 22px;">
+
+              <li style="margin-bottom: 10px;">YY新债：对市场每日新发产业债和城投债提供分析和定价参考报告。当日回溯前一日一级发行和二级成交情况。</li>
+
+              <li style="margin-bottom: 10px;">YY评级：对全市场公募发债主体提供评级查询和专家点评。</li>
+
+              <li style="margin-bottom: 10px;">YY估值：通过自建估值曲线，实现对全市场存量信用债的估值。</li>
+
+              <li style="margin-bottom: 10px;">成交数据：提供二级中介成交数据和前台数据查询。</li>
+
+              <li style="margin-bottom: 10px;">YY报告：不定期上传各区域、各行业、各主体的尽调报告。</li>
+
+            </ul>
+
+          </div>
+
+          <div class="nscfl-btn"> <a href="https://www.ratingdog.cn/#/home" target="_blank">体验Ratingdog</a> </div>
+
+        </div>
+
+        <div class="nscfr"><img src="imgs/ExperiencePics/yy.jpg" /></div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!---mobile--->
+
+<div id="trial_area" class="mobile_visible">
+
+  <div class="scen_h1_title"><span>体验使用</span><font>Trial</font></div>
+
+  <div class="nscfl-title"> Ratingdog为固定收益投资者提供全方位信用投研服务包括： </div>
+
+  <ul class="ivan" style="list-style:disc;padding-left:22px;">
+
+  <li style="margin-bottom: 10px;">YY新债：对市场每日新发产业债和城投债提供分析和定价参考报告。当日回溯前一日一级发行和二级成交情况。</li>
+
+  <li style="margin-bottom: 10px;">YY评级：对全市场公募发债主体提供评级查询和专家点评。</li>
+
+  <li style="margin-bottom: 10px;">YY估值：通过自建估值曲线，实现对全市场存量信用债的估值。</li>
+
+  <li style="margin-bottom: 10px;">成交数据：提供二级中介成交数据和前台数据查询。</li>
+
+  <li style="margin-bottom: 10px;">YY报告：不定期上传各区域、各行业、各主体的尽调报告。</li>
+
+  </ul>
+
+  <div class="nscfl-btn"><a href="https://www.ratingdog.cn/#/home" target="_blank">体验Ratingdog</a> </div>
+
+  <div class="nscfr"><img src="imgs/ExperiencePics/yy.jpg" /></div>
+
+</div>
+
+
+
+
+
+<!-----常见问题---->
+
+<div class="normal-section sec6" id="sec6">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-title">
+
+        <div class="normal-section-title-wrapper nst-light">
+
+          <div class="normal-section-title-t1">常见问题</div>
+
+          <div class="normal-section-title-t2">FAQs</div>
+
+          <div class="normal-section-title-l1"></div>
+
+          <div class="normal-section-title-l2"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 normal-section-content">
+
+        <div class="nsc-fl">
+
+          <div class="nsc-title">Q1: YY评级具体在投资过程中如何使用？</div>
+
+          <div class="nsc-desc">A: 依据我们的观察和实践，评级1-4属于高等级主体，信用风险很小。评级5仍属于投资级别主体，但需要考虑企业性质、行业趋势，衡量性价比。评级6信用风险略大，城投和国企可以博一下收益，对于民企需要仔细考虑利率保护是否足够，在市场风险偏好大幅变化时，该级别的利率波动幅度往往较大。评级7-10多存在信用瑕疵，以规避为主。 </div>
+
+        </div>
+
+        <div class="nsc-fr">
+
+          <div class="nsc-title">Q2: Ratingdog的标准化产品和定制化服务有何差异？ </div>
+
+          <div class="nsc-desc">A: 标准化产品可提供基础的信用债评级、简评、估值等信息参考；定制化服务可依据客户的负债情况、收益需求、投资偏好等具体要素，提供更有针对性、更加深入的服务，协助客户解决固定收益投资中全流程中的各项问题。</div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="clear"></div>
+
+<div id="footer" class="footer">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 footer-content">
+
+        <ul class="footer-content-ul">
+
+          <li>
+
+            <div class="footer-menu-item" style="float: left;">
+
+            <a class="footer-menu-blink" href="">关于我们</a>
+
+            <p>
+
+            <a class="footer-menu-slink" href="aboutus.html">了解信用云</a> 
+
+            <a class="footer-menu-slink" href="contactus.html">联系我们</a>
+
+            </p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item" style="margin: 0 auto;">
+
+            <a class="footer-menu-blink" href="">产品及服务</a>
+
+            <p>
+
+            <a class="footer-menu-slink" href="internal-credit-rating.html">债乎 CreditMaster</a>
+
+            <a class="footer-menu-slink" href="risk-monitor-and-warning.html">中证预鉴 CreditPortal</a> <a class="footer-menu-slink" href="trading-information.html">DealingMatrix</a>
+
+            </p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item" style="margin: 0 auto;"> <a class="footer-menu-blink" href="">解决方案</a>
+
+            <p><a class="footer-menu-slink" href="construction-of-internal-rating-system.html">券商内部评级体系建设</a> <a class="footer-menu-slink" href="management-of-financing-guarantee-business.html">融担业务综合管理</a> 
+
+            <a class="footer-menu-slink" href="investor-internal-evaluation.html">投资者适当性管理</a>
+
+            </p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item" style="margin: 0 auto;"> <a class="footer-menu-blink" href="">资源中心</a> 
+
+            <p><a class="footer-menu-slink" href="api-0.html">文档中心</a></p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="footer-menu-item"> <a class="footer-menu-blink" href="">相关链接</a>
+
+            <p><a class="footer-menu-slink" href="https://www.chinacsci.com/zh_chs/">中证信用官网</a> <a class="footer-menu-slink" href="https://www.xinyongyun.com/">中证信用云官网</a>
+
+             <a class="footer-menu-slink" href="http://www.cspengyuan.com/zh-cn/index">中证鹏元官网</a>
+
+             </p>
+
+             </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 footer-bottom">
+
+        <div class="footer-bottom-wrapper">
+
+          <div class="footer-bottom-left"></div>
+
+          <div class="footer-bottom-right">Copyright&copy;2015-2019  中证信用增进股份有限公司<span class="br"></span>  版权所有 <a href="http://www.beian.miit.gov.cn">粤ICP备15058755号-1</a></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="btnrb"><a class="btnrb-contactus" href="contactus.html"> 联<br>
+
+  系<br>
+
+  我<br>
+
+  们 </a>
+
+  <div class="btnrb-gototop"> <img src="imgs/index/tarrow.png" width="100%;"></div>
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+
+isapi = 0;</script>
+
+<script src="js/public.js"></script>
+
+<script src="js/menu.js"></script><script src="js/product.js"></script>
+
+<script>
+
+  var beapNum = 1;
+
+  
+
+  $(".beapleftmenu li").click(function(){
+
+    $(".beapleftmenu li").removeClass("active");
+
+    $( this ).addClass("active");
+
+    beapNum = $(this).attr("curnum");
+
+    $(".beapcontent").stop().hide();
+
+    $("#beapcontent"+beapNum).stop().fadeIn( 500 );
+
+  });
+
+  
+
+</script>
+
+</body>
+
+</html>

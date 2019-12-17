@@ -1,0 +1,127 @@
+.investor-banner { width:100%; height:680px; margin:0; padding:0; background-image: url(../imgs/investorIE/banner.jpg); background-position: center center; background-size: cover; }
+.investor-banner .container { margin: 0 auto; position: relative; }
+.investor-banner-content { height:680px; }
+.investor-banner-title { margin-top: 200px; width:50%; height: 54px; text-align: left; font-size: 36px; color: #FFFFFF; line-height: 54px; }
+.investor-banner-desc { margin-top: 30px; width:50%; height: 146px; font-size: 16px; color: #FFFFFF; text-align: left; line-height: 24px; }
+.investor-banner-btn { width:50%; height: 40px; }
+.investor-banner-btn a { width:180px; height: 40px; border: 1px solid #0E85D9; display: block; line-height: 40px; text-align: center; font-size: 14px; color: #FFFFFF; letter-spacing: 0; }
+.investor-banner-btn a:hover { background-color: #0E85D9; }
+.scheme-content { width: 100%; height: 843px; display: block; background-image: url(../imgs/investorIE/bg-schemecontent.png); background-position: center; background-size: cover; }
+.scheme-content .container { margin: 0 auto; }
+.scheme-content-title { height:243px; }
+.scheme-content-content { height:560px; }
+.scheme-content-content-left { width:58%; height: 560px; float: left; }
+.scheme-content-content-left img { width:100%; }
+.scheme-content-content-right { width:35%; height: 560px; float: right; padding-top: 46px; }
+.scheme-content-content-right-text { font-size: 14px; color: #242728; text-align: left; line-height: 22px; margin-bottom: 20px; position: relative; }
+.scheme-content-content-right-text span { position: absolute; z-index: 2; left: -22px; top: 9px; background: #242728; width: 6px; height: 6px; border-radius: 50%; display: block; }
+.scheme-advantage { background-image: url(../imgs/investorIE/bg-scheme-advantage.jpg); width:100%; height: 729px; margin: 0; padding: 0; background-size: cover; }
+.scheme-advantage .container { margin: 0 auto; }
+.scheme-advantage-title { height:243px; position: relative; }
+.scheme-advantage-content { height:376px; position: relative; }
+.scheme-advantage-content ul { width:100%; height: 376px; overflow: hidden; margin: 0 auto; padding: 0; list-style: none; }
+.scheme-advantage-content ul li { width:23.9%; height: 376px; overflow: hidden; float: left; background-position: center center; background-size: cover; }
+ .scheme-advantage-content ul li:nth-child(1) {
+ margin-right:1.4%;
+ background-image: url(../imgs/investorIE/sa-bg-1.jpg);
+}
+ .scheme-advantage-content ul li:nth-child(2) {
+ margin-right:1.4%;
+ background-image: url(../imgs/investorIE/sa-bg-2.jpg);
+}
+ .scheme-advantage-content ul li:nth-child(3) {
+ margin-right:1.4%;
+ background-image: url(../imgs/investorIE/sa-bg-3.jpg);
+}
+ .scheme-advantage-content ul li:nth-child(4) {
+ margin-right:0;
+ background-image: url(../imgs/investorIE/sa-bg-4.jpg);
+}
+.scheme-advantage-content ul li .sac_icon { width:80px; height: 80px; margin: 105px auto 0 auto; }
+.scheme-advantage-content ul li .sac_icon img { width: 80px; height: 80px; }
+.scheme-advantage-content ul li .sac_icon_hover { display: none; }
+.scheme-advantage-content ul li .sac_icon_hover img { width: 80px; height: 80px; }
+.scheme-advantage-content ul li .sac_title { width: 305px; max-width: 90%; height: 60px; line-height: 30px; margin: 30px auto 0 auto; font-size: 18px; color: #FFFFFF; letter-spacing: 0; text-align: center; }
+.scheme-advantage-content ul li .sac_desc { display: none; }
+.scheme-advantage-content ul li:hover { }
+.scheme-advantage-content ul li:hover .sac_icon { display: none; }
+.scheme-advantage-content ul li:hover .sac_icon img { width: 80px; height: 80px; }
+.scheme-advantage-content ul li:hover .sac_icon_hover { width:80px; height: 80px; margin: 40px auto 0 auto; display: block; }
+.scheme-advantage-content ul li:hover .sac_icon_hover img { width: 80px; height: 80px; }
+.scheme-advantage-content ul li:hover .sac_title { width: 305px; max-width: 90%; height: 60px; line-height: 30px; margin: 30px auto 0 auto; font-size: 18px; color: #FFFFFF; letter-spacing: 0; text-align: center; }
+.scheme-advantage-content ul li:hover .sac_desc { display: block; width: 285px; max-width: 90%; height: 110px; margin: 10px auto 0 auto; font-size: 14px; color: #D9D9D9; letter-spacing: 0; line-height: 22px; }
+.application-scene { width: 100%; height: 533px; display: block; background-image: url(../imgs/investorIE/bg-applicationcase.jpg); background-position: center center; background-size: cover; }
+.application-scene .container { margin: 0 auto; }
+.application-scene-title { height:243px; }
+.application-scene-content { height: 170px; }
+.application-scene-content ul { width:100%; height: 180px; margin: 0; padding: 0; list-style: none; }
+.application-scene-content ul li { width:32.4%; height: 180px; text-align: center; float: left; background-position: center center; background-size: cover; font-size: 24px; color: #FFFFFF; letter-spacing: 0; text-align: center; line-height: 180px; cursor: pointer; }
+ .application-scene-content ul li:nth-child(1) {
+ background-image: url(../imgs/investorIE/ac_iconbg_1.png);
+ margin-right: 1.4%;
+}
+ .application-scene-content ul li:nth-child(2) {
+ background-image: url(../imgs/investorIE/ac_iconbg_2.png);
+ margin-right: 1.4%;
+}
+ .application-scene-content ul li:nth-child(3) {
+ background-image: url(../imgs/investorIE/ac_iconbg_3.png);
+ margin-right: 0;
+}
+
+.scheme-content .normal-section-title,.scheme-advantage .normal-section-title,.application-scene .normal-section-title{ height: 243px;}
+@media (max-width: 1080px) {
+	
+	/***/
+.scheme-content{ height:auto}	
+.scheme-content .container{ width:100%}	
+.scheme-content-content{ height:auto; padding:0}
+.smg_img img{ width:100%; height:auto}
+.scheme-content-content-left{ width:100%; height:auto}
+.scheme-content-content-right{ height:auto; margin:0; width:100%; padding-top:25px;}
+.scheme-content-content-right-text span{ left:0}
+.scheme-content .normal-section-title{ height:auto; margin-bottom: 50px;}
+.scheme-content{ padding:100px 20px; padding-bottom:60px;}
+.nst-light .normal-section-title-l1{ display:none}
+.nst-light .normal-section-title-l2{ display:none}
+.nst-dark .normal-section-title-l1{ display:none}
+.nst-dark .normal-section-title-l2{ display:none}
+.normal-section-title-wrapper{ width:100%; height:auto; margin:0}
+.normal-section-title-t1:before{ width:20%; margin-right:25px; height:1px; display:inline-block; content:""; background:#999; vertical-align:middle}
+.normal-section-title-t1:after{ width:20%; margin-left:25px; height:1px; display:inline-block; content:""; background:#999; vertical-align:middle}
+.scheme-content-content-right-text{ padding-left:20px;}
+
+/**/
+.scheme-advantage{ height:auto; padding:100px 20px; padding-bottom:60px;}
+.scheme-advantage .normal-section-title{ height:auto; margin-bottom:50px;}
+.scheme-advantage .container{ width:100%}
+.scheme-advantage-title{ height:auto}
+.scheme-advantage-content{ height:auto; padding:0}
+.scheme-advantage-content ul{ height:auto; width:100%}
+.scheme-advantage-content ul li{ width:100%; height:auto; padding:35px 20px; margin-bottom:20px;}
+.scheme-advantage-content ul li:last-child{ margin-bottom:0}
+.scheme-advantage-content ul li:nth-child(1),.scheme-advantage-content ul li:nth-child(2),.scheme-advantage-content ul li:nth-child(3){ margin-right:0}
+.scheme-advantage-content ul li .sac_icon{ height:auto; margin:0; text-align:center; width:100%}
+.scheme-advantage-content ul li .sac_icon img{ margin:0 auto}
+.scheme-advantage-content ul li .sac_title,.scheme-advantage-content ul li:hover .sac_title{ width:100%; height:auto; margin:0; margin-top:20px;}
+.scheme-advantage-content ul li .sac_desc,.scheme-advantage-content ul li:hover .sac_desc{ display:none}
+.scheme-advantage-content ul li:hover .sac_icon_hover{ margin:0 auto}
+/****/
+.application-scene{ height:auto; padding:100px 20px; padding-bottom:60px;}
+.application-scene .normal-section-title{ height:auto; margin-bottom:50px;}
+.application-scene .container{ width:100%; padding:0}
+.application-scene-content{ height:auto; padding:0}
+.application-scene-content ul li{ height:90px;}
+.application-scene-content ul{ height:auto}
+}
+
+@media (max-width: 700px) {
+.application-scene-content ul li{ height:70px;}	
+}
+@media (max-width: 600px) {
+.application-scene-content ul li{ height:60px;}	
+}
+
+@media (max-width:500px) {
+.application-scene-content ul li{ height:10vw;}	
+}

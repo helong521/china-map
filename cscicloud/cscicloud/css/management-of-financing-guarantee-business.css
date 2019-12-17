@@ -1,0 +1,61 @@
+.top-banner { width:100%; height:680px; margin:0; padding:0; background-image: url(../imgs/ManagementOfFinancingGuaranteeBusiness/pc/banner.jpg); background-position: center center; background-size: cover; }
+.top-banner .container { margin: 0 auto; position: relative; }
+.top-banner-content { height:680px; }
+.top-banner-title { margin-top: 250px; width:50%; height: 54px; text-align: left; font-size: 36px; color: #FFFFFF; line-height: 54px; }
+.top-banner-desc { margin-top: 30px; width:50%; height: auto; font-size: 16px; color: #FFFFFF; text-align: left; line-height: 24px; }
+.top-banner-btn { width:50%; height: 40px; margin-top: 50px; text-align: left; }
+.top-banner-btn a { width:180px; height: 40px; border: 1px solid #0E85D9; display: block; line-height: 40px; text-align: center; font-size: 14px; color: #FFFFFF; letter-spacing: 0; float: left; margin-right: 20px; }
+.top-banner-btn a:hover { background-color: #0E85D9; text-decoration: none; }
+.top-banner-btn a.active { background-color: #0E85D9; text-decoration: none; }
+.sec1 { /*  设置参数  */ height: 573px; background-image: url(../imgs/ManagementOfFinancingGuaranteeBusiness/pc/1/1-bg.png); }
+.sec1 .normal-section-title { /*  设置参数  */ height:243px; }
+.sec1 .normal-section-content { /*  设置参数  */ height:260px; }
+.sec1 .nsc-keywork { width:100%; height: auto; margin: 0 auto; font-size: 16px; color: #000000; letter-spacing: 0; line-height: 24px; }
+.sec1 .normal-section-content ul { margin: 40px auto 0 auto; padding: 0; list-style: none; }
+.sec1 .normal-section-content li { width:100%; height: auto; overflow: hidden; float: left; margin-bottom: 30px; font-size: 16px; color: #242728; text-align: left; line-height: 24px; }
+.sec2 { /*  设置参数  */ height: 856px; background-image: url(../imgs/ManagementOfFinancingGuaranteeBusiness/pc/2/2-bg-new.jpg); }
+.sec2 .normal-section-title { /*  设置参数  */ height:243px; }
+.sec2 .normal-section-content { /*  设置参数  */ height:600px; margin: 0; padding: 0; }
+.sec2 .nsc-p1 { width: 100%; height: auto; margin: 0 auto; font-size: 16px; color: #FFFFFF; text-align: left; line-height: 24px; }
+.sec2 .nsc-p2 { width: 100%; height: auto; margin: 50px auto 30px auto; }
+.sec2 .nsc-p3 { padding-top: 20px; }
+.sec2 .nsc-p3 a { width:180px; height: 40px; font-size: 14px; color: #fff; text-align: center; line-height: 40px; display: block; margin-right: 30px; float: left; border: 1px solid #0086E0; text-decoration: none; }
+.sec4 { /*  设置参数  */
+    height: 403px; background-image: url(../imgs/ManagementOfFinancingGuaranteeBusiness/pc/3/3-bg.png); }
+.sec4 .normal-section-title { /*  设置参数  */
+    height:243px; }
+.sec4 .normal-section-content { /*  设置参数  */
+    height:50px; margin: 0; padding: 0; }
+.sec4 .nscfl { /*    float:left;*/
+    width:50%; height: 50px; position: relative; text-align: center; /*    padding-right: 15px;*/
+    margin: 0 auto; }
+.sec4 .nscfr { float:left; width:50%; height: 50px; position: relative; text-align: left; padding-left: 15px; }
+@media (max-width: 1080px) {
+.sec1{ height:auto; padding:100px 0; padding-bottom:60px;}	
+.normal-section .container{ width:100%;}
+.sec1 .container{ width:100%; padding:0 20px}
+.normal-section-title{ height:auto; padding:0;}
+.sec1 .normal-section-title{ height:auto; margin-bottom:50px;}
+.sec1 .normal-section-content, .sec4 .normal-section-content ul{ margin:0; margin-top:20px;}
+.normal-section-title-wrapper{ width:100%; height:auto; margin:0}
+.normal-section-title-t1:before{ width:20%; margin-right:25px; height:1px; display:inline-block; content:""; background:#999; vertical-align:middle}
+.normal-section-title-t1:after{ width:20%; margin-left:25px; height:1px; display:inline-block; content:""; background:#999; vertical-align:middle}	
+.nst-dark .normal-section-title-l1{ display:none}
+.nst-dark .normal-section-title-l2{ display:none}	
+/***/
+.sec2 .normal-section-title{ height:auto; margin-bottom: 50px;}
+.sec2{ padding:100px 20px; padding-bottom:60px;}
+.nst-light .normal-section-title-l1{ display:none}
+.nst-light .normal-section-title-l2{ display:none}
+.sec2 .nsc-p3 a{ width:48%; margin-right:0;margin-bottom:15px;}
+.sec2 .nsc-p3 a:nth-child(2n){ float:right;}
+/**/
+.sec4{ height:auto}
+.sec4{ padding:100px 20px; padding-bottom:60px;}
+.sec4 .normal-section-title{ height:auto; margin-bottom:50px;}
+.sec4 .nscfl img{ max-width:auto; height:auto; width:100%; height:auto}
+.sec2{ height:auto}
+}
+@media (max-width: 374px) {
+.sec2 .nsc-p3 a{ width:100%}
+}
